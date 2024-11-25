@@ -1,0 +1,14 @@
+.stack_container {
+  margin-bottom: 50px;
+}
+
+.stack_title {
+  color: #3ca58e;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.stack_tag_name {
+  font-size: 13px;
+  font-weight: 700;
+}

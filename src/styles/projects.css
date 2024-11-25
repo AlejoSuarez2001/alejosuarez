@@ -1,0 +1,32 @@
+.projects_container {
+  margin-bottom: 52px;
+}
+
+.projects_card_title {
+  color: #3ca58e;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.projects_card_text {
+  font-size: 14px;
+  text-wrap: pretty;
+}
+
+.projects_card_video {
+  width: 100%;
+  box-shadow: 2px 3px 10px 0px rgba(62, 62, 62, 0.2);
+}
+
+.projects_tag_name {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.projects_card_category {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #3ca58e;
+  line-height: 1.5;
+}

@@ -1,0 +1,43 @@
+.experience_container {
+  margin-bottom: 100px;
+}
+
+.experience_items_container {
+  position: relative;
+}
+
+.experience_timeline {
+  border-left: 2px solid #d2dfff;
+}
+
+.experience_title {
+  color: #3ca58e;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.experience_subtitle {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.experience_date {
+  font-size: 14px;
+  color: #939393;
+}
+
+.experience_text {
+  font-size: 14px;
+  line-height: 2;
+
+}
+
+.experience_icon {
+  position: absolute;
+  left: -7.25px;
+  color: #3ca58e;
+  border-radius: 50%;
+  transition: 0s;
+}
+
+

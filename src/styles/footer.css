@@ -1,0 +1,20 @@
+.footer_title {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3ca58e;
+  transition: opacity 0.2s;
+}
+
+.footer_icon {
+  cursor: pointer;
+}
+
+.footer_icon:hover {
+  scale: 1.1;
+}
+
+@media (width <= 991px) {
+  .footer_icon:hover {
+    scale: 1;
+  }
+}

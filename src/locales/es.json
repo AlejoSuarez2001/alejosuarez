@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "certifications": "Certificaciones",
+    "technologies": "Tecnologías"
+  },
+  "aboutMe": {
+    "title": {
+      "1": "¡Hola!",
+      "2": "Soy",
+      "3": "Desarrollador"
+    },
+    "contact": "Contáctame",
+    "download": "Descargar CV"
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "developer": {
+      "title": "Desarrollador",
+      "subtitle": "Universidad Tecnológica Nacional",
+      "date": "Mayo 2024 - Actualidad",
+      "text": "Como desarrollador Fullstack, me dedico a resolver errores con el fin de optimizar el rendimiento y mejorar la experiencia del usuario. Además, me encargo de implementar nuevas características, módulos y funcionalidades en las aplicaciones existentes. También me especializo en el desarrollo de aplicaciones desde cero, cumpliendo con precisión cada etapa del proceso de desarrollo."
+    },
+    "analyst": {
+      "title": "Analista Funcional",
+      "subtitle": "Universidad Tecnológica Nacional",
+      "date": "Noviembre 2023 - Mayo 2024",
+      "text": "Encargado del análisis y relevamiento de requisitos para proyectos de desarrollo de software. Enfocado en la generación de casos de uso e historias de usuario, así como en la creación de diversos diagramas que conformaban las etapas de análisis y diseño. Además, realizaba tareas de testing QA para garantizar la calidad del software desarrollado."
+    },
+    "support": {
+      "title": "Soporte Aplicaciones",
+      "subtitle": "Universidad Tecnológica Nacional",
+      "date": "Agosto 2022 - Noviembre 2023",
+      "text": "Mi rol consistía en identificar y resolver errores en las aplicaciones universitarias tanto desde la interfaz de administrador como mediante consultas en las bases de datos en caso de ser necesario. Además, gestionaba los permisos de las aplicaciones y mantenía contacto con los usuarios para asistirlos en la resolución de problemas."
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "samay": {
+      "title": "Samay Wayra",
+      "text": "Página web desarrollada para una empresa de alquiler de cabañas. Incluye una galería de fotos y una sección de contacto para realizar reservas de alojamiento."
+    },
+    "pap": {
+      "title": "Paso a Paso",
+      "text": "Aplicación web desarrollada para una empresa mayorista, permite visualizar los productos disponibles y añadirlos a un carrito para realizar consultas. Además, incluye un panel de administrador para gestionar productos y configurar aspectos generales de la página."
+    },
+    "traducciones": {
+      "title": "Traducciones",
+      "text": "Microservicio para un portal universitario, diseñado para traducir y corregir archivos. Gestiona la carga y descarga de documentos y cuenta con roles específicos para cada tipo de usuario. Además, incluye un sistema de notificación por correo electrónico para mantener a los usuarios informados."
+    },
+    "ripadmin": {
+      "title": "RIP Admin",
+      "text": "Aplicación web para la administración de la aplicación móvil 'RIP Alive'. Permite a los administradores visualizar la información de los usuarios, gestionar el estado de las suscripciones y pagos, configurar catálogos de la aplicación, generar cupones de descuento, entre otras funcionalidades."
+    },
+    "ripalive": {
+      "title": "RIP Alive",
+      "text": "Aplicación móvil diseñada para permitir a los usuarios guardar su información importante en caso de fallecimiento, con el fin de informar a sus familiares sobre sus últimos deseos. Los usuarios pueden almacenar detalles sobre qué hacer con sus pertenencias, contactos clave, inversiones, información personal y de salud, entre otros. La app cuenta con un sistema de suscripción de pago y una tienda con productos."
+    },
+    "credential": {
+      "title": "Credencial UTN",
+      "text": "Aplicación móvil diseñada como credencial digital para una universidad. Permite a los estudiantes validarse como alumnos mediante un código QR y facilita el acceso a información útil, como las materias en curso, el historial académico y una agenda detallada con los horarios de cada asignatura. También incluye una sección para descargar la constancia de alumno."
+    },
+    "siaFrontend": {
+      "title": "SIA Frontend",
+      "text": "El Frontend de SIA (Sistema Integrado de Aplicaciones) conecta los sistemas de la Facultad Tecnológica de Buenos Aires, ofreciendo una interfaz centralizada para estudiantes, docentes y administrativos. Desarrollado con tecnologías modernas como React y Material UI, el sistema garantiza navegación eficiente, accesibilidad y compatibilidad en múltiples dispositivos, integrando procesos académicos y administrativos en una sola plataforma."
+    }
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "fullstack": {
+      "title": "Diplomatura Full Stack con React",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "May 2023"
+    },
+    "dbf": {
+      "title": "Fundamentos Bases de Datos",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Sep 2022"
+    },
+    "dbd": {
+      "title": "Diplomatura Bases de Datos",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Oct 2023"
+    },
+    "react": {
+      "title": "Desarrollo en React",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "30 Nov 2023"
+    },
+    "esi": {
+      "title": "Experto en Seguridad Informática",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Sep 2023"
+    },
+    "python": {
+      "title": "Diplomatura Python",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Feb 2024"
+    },
+    "bootcamp": {
+      "title": "Bootcamp Credencial UTN",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Mar 2024"
+    }
+  },
+  "stack": {
+    "title": "Stack Tecnológico",
+    "subtitle": {
+      "1": "Frontend",
+      "2": "Backend",
+      "3": "Herramientas",
+      "4": "Aprendiendo"
+    }
+  },
+  "footer": {
+    "title": "Desarrollado por Alejo Suarez"
+  }
+}

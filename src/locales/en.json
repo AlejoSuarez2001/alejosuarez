@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "technologies": "Technologies"
+  },
+  "aboutMe": {
+    "title": {
+      "1": "Hi there!",
+      "2": "I'm",
+      "3": "Developer"
+    },
+    "contact": "Contact Me",
+    "download": "Download CV"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "developer": {
+      "title": "Developer",
+      "subtitle": "Universidad Tecnológica Nacional",
+      "date": "May 2024 - Present",
+      "text": "As a Fullstack developer, I focus on resolving errors to optimize performance and enhance user experience. Additionally, I handle the implementation of new features, modules, and functionalities in existing applications. I also specialize in developing applications from scratch, accurately completing each stage of the development process."
+    },
+    "analyst": {
+      "title": "Functional Analyst",
+      "subtitle": "Universidad Tecnológica Nacional",
+      "date": "November 2023 - May 2024",
+      "text": "Responsible for analyzing and determining requirements for software development projects. Focused on generating use cases and user stories, as well as creating various diagrams that comprised the analysis and design stages. In addition, I carried out QA testing tasks to guarantee the quality of the developed software."
+    },
+    "support": {
+      "title": "Application Support",
+      "subtitle": "Universidad Tecnológica Nacional",
+      "date": "August 2022 - November 2023",
+      "text": "My role consisted of identifying and resolving errors in university applications both from the administrator interface and through database queries when necessary. Additionally, I managed app permissions and kept in touch with users to help them resolve issues."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "samay": {
+      "title": "Samay Wayra",
+      "text": "Web page developed for a cabin rental company. It includes a photo gallery and a contact section to make accommodation reservations."
+    },
+    "pap": {
+      "title": "Paso a Paso",
+      "text": "Web application developed for a wholesale company, enabling users to browse available products and add them to a cart for request purposes. Additionally, it includes an admin panel to manage products and configure general page settings."
+    },
+    "traducciones": {
+      "title": "Traducciones",
+      "text": "Microservice for a university portal, designed to translate and correct files. It manages the uploading and downloading of documents and includes specific roles for each user type. Additionally, it includes an email notification system to keep users informed."
+    },
+    "ripadmin": {
+      "title": "RIP Admin",
+      "text": "Web application for managing the 'RIP Alive' mobile app. It allows administrators to view user information, manage subscription and payment statuses, configure app catalogs, generate discount coupons, and more."
+    },
+    "ripalive": {
+      "title": "RIP Alive",
+      "text": "Mobile application designed to allow users to save all their important information in case of death, to inform family members of their final wishes. Users can store details about what to do with their belongings, key contacts, investments, personal and health information, and more. The app includes a built-in subscription system and a store for purchasing products."
+    },
+    "credential": {
+      "title": "Credencial UTN",
+      "text": "Mobile application designed as a digital credential for a university. It allows students to verify their enrollment status with a QR code and provides access to useful information, such as current courses, academic records, and a detailed schedule with class times. It also includes a section to download an enrollment certificate."
+    },
+    "siaFrontend": {
+      "title": "SIA Frontend",
+      "text": "The SIA (Integrated Applications System) Frontend connects the systems of the Faculty of Technology of Buenos Aires, providing a centralized interface for students, faculty, and staff. Built with modern technologies like React and Material UI, it ensures efficient navigation, accessibility, and cross-device compatibility, integrating academic and administrative processes into a single platform."
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "fullstack": {
+      "title": "Full Stack with React Diploma",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "May 2023"
+    },
+    "dbf": {
+      "title": "Database Fundamentals",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Sep 2022"
+    },
+    "dbd": {
+      "title": "Database Diploma",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Oct 2023"
+    },
+    "esi": {
+      "title": "IT security expert",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Sep 2023"
+    },
+    "python": {
+      "title": "Python Diploma",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Feb 2024"
+    },
+    "bootcamp": {
+      "title": "Bootcamp UTN Credential",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Mar 2024"
+    }
+  },
+  "stack": {
+    "title": "Technology Stack",
+    "subtitle": {
+      "1": "Frontend",
+      "2": "Backend",
+      "3": "Tools",
+      "4": "Learning"
+    }
+  },
+  "footer": {
+    "title": "Developed by Alejo Suarez"
+  }
+}

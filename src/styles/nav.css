@@ -1,0 +1,73 @@
+.nav_container {
+  padding-bottom: 70px;
+}
+
+.nav_desktop {
+  transition: background-color 0.2s, box-shadow 0.2s;
+  z-index: 1;
+}
+
+.shadow_invisible {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+}
+
+.shadow_visible {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav_mobile {
+  transition: height 0.3s, background-color 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.nav_open {
+  height: 370px;
+}
+
+.nav_close {
+  height: 70px;
+}
+
+.nav_icon {
+  font-size: 26px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav_logo {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.nav_desktop_tools {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.nav_tools_container {
+  transition: background-color 0.2s;
+  width: 100px;
+}
+
+.nav_tools_thememode {
+  font-size: 22px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.nav_tools_language {
+  font-weight: 700;
+  border: none;
+  background-color: inherit;
+  transition: opacity 0.2s;
+  max-width: 34px;
+}
+
+@media screen and (min-width: 991px) {
+  .nav_tools_thememode {
+    font-size: 24px;
+  }
+}
