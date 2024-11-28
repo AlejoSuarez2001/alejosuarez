@@ -3,14 +3,15 @@ import { useTheme } from "../../contexts/ThemeContext";
 import AboutMeImage from "../../assets/images/me.png";
 import { useScroll } from "../../contexts/ScrollContext";
 import { useEffect, useRef } from "react";
-import cv from "../../assets/pdf/CV.pdf";
+import cvEsp from "../../assets/pdf/CV_ESP.pdf";
+import cvEng from "../../assets/pdf/CV_ENG.pdf";
 import "../../styles/aboutMe.css";
 import LinkedIcon from "../../assets/icons/LinkedIcon";
 import GitIcon from "../../assets/icons/GitIcon";
 
 export default function AboutMe() {
   const { theme } = useTheme();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { setHome } = useScroll();
   const homeRef = useRef();
 
@@ -21,6 +22,8 @@ export default function AboutMe() {
   useEffect(() => {
     setHome(homeRef);
   }, []);
+
+  const cvDownloadLink = i18n.language === 'en' ? cvEng : cvEsp;
 
   return (
     <section
@@ -51,7 +54,7 @@ export default function AboutMe() {
                 {t(`aboutMe.contact`)}
               </button>
               <button
-                onClick={() => window.open(cv, "_blank")}
+                onClick={() => window.open(cvDownloadLink, "_blank")}
                 className={`button_secondary_${theme} language me-lg-4 col-5 col-lg-4 px-1`}
               >
                 {t(`aboutMe.download`)}
@@ -80,7 +83,7 @@ export default function AboutMe() {
         <div className="p-0 p-sm-3 col-12 col-lg-6 d-flex justify-content-center align-items-center mt-0 mt-sm-4 mt-lg-0 order-1 order-lg-1">
           <img
             className="about_img col-10 col-sm-8 col-lg-11"
-            style={{width: "250px", borderRadius: "2%", boxShadow: "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"}}
+            style={{ width: "250px", borderRadius: "2%", boxShadow: "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px" }}
             src={AboutMeImage}
           />
         </div>
