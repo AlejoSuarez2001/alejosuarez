@@ -21,7 +21,11 @@ import gitlab from "../../assets/images/gitlab.webp";
 import ts from "../../assets/images/ts.webp";
 import mongo from "../../assets/images/mongo.webp";
 import chakra from "../../assets/images/chakra.webp";
+import paypal from "../../assets/images/paypal.webp";
 import material from "../../assets/images/material.webp";
+import mp from "../../assets/images/mp.webp";
+import rc from "../../assets/images/rc.webp";
+import stripe from "../../assets/images/stripe.webp";
 
 const tagList = {
   react: { name: "React", img: react },
@@ -48,6 +52,10 @@ const tagList = {
   sequelize: { name: "Sequelize", img: sequelize },
   api: { name: "API Rest", img: api },
   material: { name: "Material UI", img: material },
+  rc: { name: "RevenueCat", img: rc },
+  mp: { name: "Mercado Pago", img: mp },
+  stripe: { name: "Stripe", img: stripe },
+  paypal: { name: "PayPal", img: paypal },
 };
 
 export default function StackTechnologie({ tag }) {

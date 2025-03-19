@@ -10,7 +10,11 @@ import bootstrapIcon from "../../assets/icons/bootstrap.webp";
 import gitIcon from "../../assets/icons/git.webp";
 import chakraIcon from "../../assets/icons/chakra.webp";
 import mongoIcon from "../../assets/icons/mongo.webp";
+import mpIcon from "../../assets/icons/mp.webp";
+import rcIcon from "../../assets/icons/rc.webp";
+import stripeIcon from "../../assets/icons/stripe.webp";
 import materialIcon from "../../assets/icons/materialIcon.webp";
+import paypalIcon from "../../assets/icons/paypal.webp";
 
 const tagList = {
   react: { name: "React", icon: reactIcon },
@@ -25,7 +29,11 @@ const tagList = {
   git: { name: "Git", icon: gitIcon },
   chakra: { name: "Chakra", icon: chakraIcon },
   mongo: { name: "MongoDB", icon: mongoIcon },
-  material: { name: "Material", icon: materialIcon },
+  rc: { name: "RevenueCat", icon: rcIcon },
+  mp: { name: "Mercado Pago", icon: mpIcon },
+  stripe: { name: "Stripe", icon: stripeIcon },
+  material: { name: "Material UI", icon: materialIcon },
+  paypal: { name: "PayPal", icon: paypalIcon },
 };
 
 export default function Tag({ tag }) {

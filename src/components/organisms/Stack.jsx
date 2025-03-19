@@ -26,7 +26,7 @@ export default function Stack() {
     "figma",
     "material"
   ];
-  const backTags = ["node", "express", "sql", "mongo", "api", "sequelize"];
+  const backTags = ["node", "express", "sql", "mongo", "api", "sequelize", "rc", "mp", "stripe", "paypal"];
   const toolsTags = ["ubuntu", "bash", "git", "gitlab", "docker", "wordpress"];
   const learningTags = ["ts"];
 

@@ -81,6 +81,7 @@ export default function Projects() {
               "js",
               "bootstrap",
               "node",
+              "stripe",
               "mongo",
             ]}
           />
@@ -109,7 +110,7 @@ export default function Projects() {
             video2={ripalive2}
             title={t("projects.ripalive.title")}
             text={t("projects.ripalive.text")}
-            technologies={["git", "reactNative", "css", "js", "node", "mongo"]}
+            technologies={["git", "reactNative", "css", "js", "node", "mongo", "rc", "stripe"]}
           />
           <ProjectMobileCard
             video1={credencial1}
