@@ -2,6 +2,7 @@ import { useTheme } from "../../contexts/ThemeContext";
 import bootcamp from "../../assets/pdf/BootcampUTN.pdf";
 import dp from "../../assets/pdf/DiplomaturaPython.pdf";
 import dbd from "../../assets/pdf/DiplomaturaDB.pdf";
+import ddk from "../../assets/pdf/DiplomaturaDockerKubernetes.pdf";
 import esi from "../../assets/pdf/ExpertoSeguridadInformatica.pdf";
 import dbf from "../../assets/pdf/FundamentosDB.pdf";
 import fullstack from "../../assets/pdf/DiplomaturaFullStack.pdf";
@@ -19,6 +20,7 @@ export default function CertificationCard({
     fullstack: fullstack,
     bootcamp: bootcamp,
     dbd: dbd,
+    ddk: ddk,
     dbf: dbf,
     dp: dp,
     esi: esi

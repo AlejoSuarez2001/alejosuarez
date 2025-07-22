@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import SectionTitle from "../atoms/SectionTitle";
 import CertificationCard from "../molecules/CertificationCard.jsx";
 import cert_dbd from "../../assets/images/DiplomaturaDB.webp";
+import cert_ddk from "../../assets/images/DiplomaturaDockerKubernetes.webp";
 import cert_fs from "../../assets/images/DiplomaturaFullStack.webp";
 import cert_dbf from "../../assets/images/FundamentosDB.webp";
 import cert_bc from "../../assets/images/BootcampUTN.webp";
@@ -42,6 +43,13 @@ export default function Certifications() {
             subtitle={t("certifications.fullstack.place")}
             date={t("certifications.fullstack.date")}
             pdf="fullstack"
+          />
+          <CertificationCard
+            cert={cert_ddk}
+            title={t("certifications.ddk.title")}
+            subtitle={t("certifications.ddk.place")}
+            date={t("certifications.ddk.date")}
+            pdf="ddk"
           />
           <CertificationCard
             cert={cert_dbf}

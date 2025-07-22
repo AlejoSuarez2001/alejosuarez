@@ -69,6 +69,11 @@
   },
   "certifications": {
     "title": "Certificaciones",
+    "ddk": {
+      "title": "Docker y Kubernetes",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Jul 2025"
+    },
     "fullstack": {
       "title": "Diplomatura Full Stack con React",
       "place": "Universidad Tecnológica Nacional",
