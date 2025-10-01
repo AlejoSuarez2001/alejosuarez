@@ -17,11 +17,17 @@
   },
   "experience": {
     "title": "Experiencia Laboral",
+    "freelance": {
+      "title": "Desarrollador Freelance",
+      "subtitle": "Autónomo",
+      "date": "Marzo 2024 - Actualidad",
+      "text": "Como desarrollador freelance, me especializo en diseñar y desarrollar aplicaciones web y móviles, entregando soluciones alineadas con los objetivos y necesidades de cada proyecto. Me comprometo a mantener una comunicación clara y un enfoque proactivo durante todas las etapas del desarrollo, garantizando resultados de calidad."
+    },
     "developer": {
-      "title": "Desarrollador",
+      "title": "Desarrollador de Software",
       "subtitle": "Universidad Tecnológica Nacional",
       "date": "Mayo 2024 - Actualidad",
-      "text": "Como desarrollador Fullstack, me dedico a resolver errores con el fin de optimizar el rendimiento y mejorar la experiencia del usuario. Además, me encargo de implementar nuevas características, módulos y funcionalidades en las aplicaciones existentes. También me especializo en el desarrollo de aplicaciones desde cero, cumpliendo con precisión cada etapa del proceso de desarrollo."
+      "text": "Soy desarrollador Fullstack con experiencia en la optimización de aplicaciones, asegurando un mejor rendimiento y una experiencia de usuario más fluida. Me especializo en implementar nuevas funcionalidades y módulos en sistemas existentes, así como en el desarrollo de aplicaciones desde cero, cuidando cada etapa del proceso: desde el análisis y diseño hasta la implementación y despliegue."
     },
     "analyst": {
       "title": "Analista Funcional",
@@ -41,6 +47,10 @@
     "samay": {
       "title": "Samay Wayra",
       "text": "Página web desarrollada para una empresa de alquiler de cabañas. Incluye una galería de fotos y una sección de contacto para realizar reservas de alojamiento."
+    },
+    "moviltrack": {
+      "title": "Moviltrack",
+      "text": "Aplicación de gestión integral diseñada para optimizar la administración interna de proyectos y recursos empresariales. Centraliza información, genera reportes, ofrece métricas de rendimiento, análisis de rentabilidad y gestión de clientes, proveedores, productos y proyectos. Incluye un sistema de roles y paneles de control para supervisar métricas y el desempeño general de la empresa."
     },
     "pap": {
       "title": "Paso a Paso",
@@ -69,20 +79,20 @@
   },
   "certifications": {
     "title": "Certificaciones",
-    "ddk": {
-      "title": "Docker y Kubernetes",
+    "dbf": {
+      "title": "Fundamentos Bases de Datos",
       "place": "Universidad Tecnológica Nacional",
-      "date": "Jul 2025"
+      "date": "Sep 2022"
     },
     "fullstack": {
       "title": "Diplomatura Full Stack con React",
       "place": "Universidad Tecnológica Nacional",
       "date": "May 2023"
     },
-    "dbf": {
-      "title": "Fundamentos Bases de Datos",
+    "esi": {
+      "title": "Experto en Seguridad Informática",
       "place": "Universidad Tecnológica Nacional",
-      "date": "Sep 2022"
+      "date": "Sep 2023"
     },
     "dbd": {
       "title": "Diplomatura Bases de Datos",
@@ -94,11 +104,6 @@
       "place": "Universidad Tecnológica Nacional",
       "date": "30 Nov 2023"
     },
-    "esi": {
-      "title": "Experto en Seguridad Informática",
-      "place": "Universidad Tecnológica Nacional",
-      "date": "Sep 2023"
-    },
     "python": {
       "title": "Diplomatura Python",
       "place": "Universidad Tecnológica Nacional",
@@ -108,6 +113,11 @@
       "title": "Bootcamp Credencial UTN",
       "place": "Universidad Tecnológica Nacional",
       "date": "Mar 2024"
+    },
+    "ddk": {
+      "title": "Docker y Kubernetes",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Jul 2025"
     }
   },
   "stack": {

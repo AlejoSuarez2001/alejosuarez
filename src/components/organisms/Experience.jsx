@@ -32,6 +32,12 @@ export default function Experience() {
           <div className="col-10 col-lg-11 p-0 pt-3 d-flex">
             <div>
               <ExperienceItem
+                title={t(`experience.freelance.title`)}
+                subtitle={t(`experience.freelance.subtitle`)}
+                date={t(`experience.freelance.date`)}
+                text={t(`experience.freelance.text`)}
+              />
+              <ExperienceItem
                 title={t(`experience.developer.title`)}
                 subtitle={t(`experience.developer.subtitle`)}
                 date={t(`experience.developer.date`)}

@@ -17,11 +17,17 @@
   },
   "experience": {
     "title": "Work Experience",
+    "freelance": {
+      "title": "Freelance Developer",
+      "subtitle": "Self-employed",
+      "date": "March 2024 - Present",
+      "text": "As a freelance developer, I specialize in designing and building web and mobile applications, delivering solutions aligned with each project's goals and requirements. I am committed to maintaining clear communication and a proactive approach throughout all development stages, ensuring high-quality results."
+    },
     "developer": {
-      "title": "Developer",
+      "title": "Software Developer",
       "subtitle": "Universidad Tecnológica Nacional",
       "date": "May 2024 - Present",
-      "text": "As a Fullstack developer, I focus on resolving errors to optimize performance and enhance user experience. Additionally, I handle the implementation of new features, modules, and functionalities in existing applications. I also specialize in developing applications from scratch, accurately completing each stage of the development process."
+      "text": "I am a Fullstack Developer with experience in optimizing applications to ensure better performance and a smoother user experience. I specialize in implementing new features and modules in existing systems, as well as developing applications from scratch, carefully managing every stage of the process—from analysis and design to implementation and deployment."
     },
     "analyst": {
       "title": "Functional Analyst",
@@ -41,6 +47,10 @@
     "samay": {
       "title": "Samay Wayra",
       "text": "Web page developed for a cabin rental company. It includes a photo gallery and a contact section to make accommodation reservations."
+    },
+    "moviltrack": {
+      "title": "Moviltrack",
+      "text": "Integrated management application designed to optimize internal project and resource handling for companies. Centralizes information, generates reports, provides performance metrics, profitability analysis, and manages clients, suppliers, products, and projects. Features a role-based access system and dashboards for tracking metrics and overall business performance."
     },
     "pap": {
       "title": "Paso a Paso",
@@ -69,30 +79,25 @@
   },
   "certifications": {
     "title": "Certifications",
-    "ddk": {
-      "title": "Docker and Kubernetes",
+    "dbf": {
+      "title": "Database Fundamentals",
       "place": "Universidad Tecnológica Nacional",
-      "date": "MaJul 2025"
+      "date": "Sep 2022"
     },
     "fullstack": {
       "title": "Full Stack with React Diploma",
       "place": "Universidad Tecnológica Nacional",
       "date": "May 2023"
     },
-    "dbf": {
-      "title": "Database Fundamentals",
+    "esi": {
+      "title": "IT Security Expert",
       "place": "Universidad Tecnológica Nacional",
-      "date": "Sep 2022"
+      "date": "Sep 2023"
     },
     "dbd": {
       "title": "Database Diploma",
       "place": "Universidad Tecnológica Nacional",
       "date": "Oct 2023"
-    },
-    "esi": {
-      "title": "IT security expert",
-      "place": "Universidad Tecnológica Nacional",
-      "date": "Sep 2023"
     },
     "python": {
       "title": "Python Diploma",
@@ -103,6 +108,11 @@
       "title": "Bootcamp UTN Credential",
       "place": "Universidad Tecnológica Nacional",
       "date": "Mar 2024"
+    },
+    "ddk": {
+      "title": "Docker and Kubernetes",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Jul 2025"
     }
   },
   "stack": {

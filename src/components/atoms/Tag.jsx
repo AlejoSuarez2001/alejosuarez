@@ -5,6 +5,7 @@ import sqlIcon from "../../assets/icons/sql.webp";
 import dockerIcon from "../../assets/icons/docker.webp";
 import htmlIcon from "../../assets/icons/html.webp";
 import cssIcon from "../../assets/icons/css.webp";
+import tailwindIcon from "../../assets/icons/tailwind.webp";
 import jsIcon from "../../assets/icons/js.webp";
 import bootstrapIcon from "../../assets/icons/bootstrap.webp";
 import gitIcon from "../../assets/icons/git.webp";
@@ -34,6 +35,7 @@ const tagList = {
   stripe: { name: "Stripe", icon: stripeIcon },
   material: { name: "Material UI", icon: materialIcon },
   paypal: { name: "PayPal", icon: paypalIcon },
+  tailwind: { name: "Tailwind", icon: tailwindIcon },
 };
 
 export default function Tag({ tag }) {

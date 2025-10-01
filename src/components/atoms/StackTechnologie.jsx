@@ -26,6 +26,10 @@ import material from "../../assets/images/material.webp";
 import mp from "../../assets/images/mp.webp";
 import rc from "../../assets/images/rc.webp";
 import stripe from "../../assets/images/stripe.webp";
+import aws from "../../assets/images/aws.webp";
+import tailwind from "../../assets/images/tailwind.webp";
+import kubernetes from "../../assets/images/kubernetes.webp";
+import grafana from "../../assets/images/grafana.webp";
 
 const tagList = {
   react: { name: "React", img: react },
@@ -56,6 +60,10 @@ const tagList = {
   mp: { name: "Mercado Pago", img: mp },
   stripe: { name: "Stripe", img: stripe },
   paypal: { name: "PayPal", img: paypal },
+  aws: { name: "AWS", img: aws },
+  tailwind: { name: "Tailwind", img: tailwind },
+  kubernetes: { name: "Kubernetes", img: kubernetes },
+  grafana: { name: "Grafana", img: grafana },
 };
 
 export default function StackTechnologie({ tag }) {

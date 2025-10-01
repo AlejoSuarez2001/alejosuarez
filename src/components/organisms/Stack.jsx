@@ -24,11 +24,12 @@ export default function Stack() {
     "expo",
     "reactNative",
     "figma",
-    "material"
+    "material",
+    "tailwind"
   ];
   const backTags = ["node", "express", "sql", "mongo", "api", "sequelize", "rc", "mp", "stripe", "paypal"];
-  const toolsTags = ["ubuntu", "bash", "git", "gitlab", "docker", "wordpress"];
-  const learningTags = ["ts"];
+  const toolsTags = ["ubuntu", "bash", "git", "gitlab", "docker", "wordpress", "grafana"];
+  const learningTags = ["ts", "aws", "kubernetes"];
 
   useEffect(() => {
     setStack(stackRef);

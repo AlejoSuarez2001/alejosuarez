@@ -8,6 +8,7 @@ import pap from "../../assets/videos/pap.webm";
 import traducciones from "../../assets/videos/traducciones.webm";
 import credencial1 from "../../assets/videos/credencial1.webm";
 import credencial2 from "../../assets/videos/credencial2.webm";
+import moviltrack from "../../assets/videos/moviltrack.webm";
 import ripalive1 from "../../assets/videos/ripalive1.webm";
 import ripalive2 from "../../assets/videos/ripalive2.webm";
 import siaFrontend from "../../assets/videos/siaFrontend.webm";
@@ -38,6 +39,21 @@ export default function Projects() {
           icon={<PiCubeBold className={`text_${theme}`} fontSize={40} />}
         />
         <div className="d-flex flex-wrap col-12 justify-content-around">
+          <ProjectWebCard
+            video={moviltrack}
+            title={t("projects.moviltrack.title")}
+            text={t("projects.moviltrack.text")}
+            technologies={[
+              "git",
+              "react",
+              "html",
+              "css",
+              "js",
+              "tailwind",
+              "node",
+              "mongo",
+            ]}
+          />
           <ProjectWebCard
             video={pap}
             title={t("projects.pap.title")}

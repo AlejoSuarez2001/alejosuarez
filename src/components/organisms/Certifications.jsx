@@ -38,32 +38,11 @@ export default function Certifications() {
         />
         <div className="d-flex flex-wrap col-12 justify-content-around">
           <CertificationCard
-            cert={cert_fs}
-            title={t("certifications.fullstack.title")}
-            subtitle={t("certifications.fullstack.place")}
-            date={t("certifications.fullstack.date")}
-            pdf="fullstack"
-          />
-          <CertificationCard
             cert={cert_ddk}
             title={t("certifications.ddk.title")}
             subtitle={t("certifications.ddk.place")}
             date={t("certifications.ddk.date")}
             pdf="ddk"
-          />
-          <CertificationCard
-            cert={cert_dbf}
-            title={t("certifications.dbf.title")}
-            subtitle={t("certifications.dbf.place")}
-            date={t("certifications.dbf.date")}
-            pdf="dbf"
-          />
-          <CertificationCard
-            cert={cert_dbd}
-            title={t("certifications.dbd.title")}
-            subtitle={t("certifications.dbd.place")}
-            date={t("certifications.dbd.date")}
-            pdf="dbd"
           />
           <CertificationCard
             cert={cert_bc}
@@ -80,11 +59,32 @@ export default function Certifications() {
             pdf="dp"
           />
           <CertificationCard
+            cert={cert_dbd}
+            title={t("certifications.dbd.title")}
+            subtitle={t("certifications.dbd.place")}
+            date={t("certifications.dbd.date")}
+            pdf="dbd"
+          />
+          <CertificationCard
             cert={cert_esi}
             title={t("certifications.esi.title")}
             subtitle={t("certifications.esi.place")}
             date={t("certifications.esi.date")}
             pdf="esi"
+          />
+          <CertificationCard
+            cert={cert_fs}
+            title={t("certifications.fullstack.title")}
+            subtitle={t("certifications.fullstack.place")}
+            date={t("certifications.fullstack.date")}
+            pdf="fullstack"
+          />
+          <CertificationCard
+            cert={cert_dbf}
+            title={t("certifications.dbf.title")}
+            subtitle={t("certifications.dbf.place")}
+            date={t("certifications.dbf.date")}
+            pdf="dbf"
           />
         </div>
       </div>
