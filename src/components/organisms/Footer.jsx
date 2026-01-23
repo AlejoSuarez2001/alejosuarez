@@ -33,7 +33,7 @@ export default function Footer() {
               <GitIcon width={26} height={26} />
             </div>
             <span
-              style={{ borderRight: "2px solid #3ca58e" }}
+              style={{ borderRight: "2px solid #2e9780" }}
               className="mx-4 py-2"
             ></span>
             <div

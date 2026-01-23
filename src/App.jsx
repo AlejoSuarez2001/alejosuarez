@@ -1,6 +1,7 @@
 import { ThemeContextProvider } from "./contexts/ThemeContext";
 import Nav from "./components/organisms/Nav";
 import AbouteMe from "./components/organisms/AboutMe";
+import Blog from "./components/organisms/Blog";
 import Experience from "./components/organisms/Experience";
 import Projects from "./components/organisms/Projects";
 import Certifications from "./components/organisms/Certifications";
@@ -20,6 +21,7 @@ function App() {
         <Projects />
         <Certifications />
         <Stack />
+        <Blog />
         <Footer />
         <ToTopArrow />
       </ScrollContextProvider>

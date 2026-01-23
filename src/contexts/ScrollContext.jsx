@@ -10,6 +10,7 @@ export function ScrollContextProvider({ children }) {
   const [home, setHome] = useState(0);
   const [experience, setExperience] = useState(0);
   const [projects, setProjects] = useState(0);
+  const [blog, setBlog] = useState(0);
   const [certifications, setCertifications] = useState(0);
   const [stack, setStack] = useState(0);
   const [scrollY, setScrollY] = useState(0);
@@ -52,6 +53,8 @@ export function ScrollContextProvider({ children }) {
         setProjects,
         certifications,
         setCertifications,
+        blog,
+        setBlog,
         stack,
         setStack,
       }}

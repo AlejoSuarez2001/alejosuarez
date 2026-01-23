@@ -30,6 +30,9 @@ import aws from "../../assets/images/aws.webp";
 import tailwind from "../../assets/images/tailwind.webp";
 import kubernetes from "../../assets/images/kubernetes.webp";
 import grafana from "../../assets/images/grafana.webp";
+import keycloak from "../../assets/images/keycloak.webp";
+import bullmq from "../../assets/images/bullmq.webp";
+import redis from "../../assets/images/redis.webp";
 
 const tagList = {
   react: { name: "React", img: react },
@@ -64,6 +67,9 @@ const tagList = {
   tailwind: { name: "Tailwind", img: tailwind },
   kubernetes: { name: "Kubernetes", img: kubernetes },
   grafana: { name: "Grafana", img: grafana },
+  keycloak: { name: "Keycloak Auth", img: keycloak },
+  bullmq: { name: "BullMQ", img: bullmq },
+  redis: { name: "Redis", img: redis },
 };
 
 export default function StackTechnologie({ tag }) {

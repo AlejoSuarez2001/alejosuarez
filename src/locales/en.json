@@ -4,15 +4,22 @@
     "experience": "Experience",
     "projects": "Projects",
     "certifications": "Certifications",
-    "technologies": "Technologies"
+    "technologies": "Technologies",
+    "blog": "Blog"
   },
   "aboutMe": {
-    "title": {
-      "1": "Hi there!",
-      "2": "I'm",
-      "3": "Developer"
+    "greeting": "Hi, I'm",
+    "name": "Alejo Suárez",
+    "role": "Full Stack Developer",
+    "description": {
+      "part1": "with experience building web and mobile applications. I mainly work with",
+      "highlight1": "Node.js",
+      "highlight2": "React",
+      "connector": "and multiple",
+      "highlight3": "dependencies and third-party integrations",
+      "part2": "focusing on code quality, performance, and user experience."
     },
-    "contact": "Contact Me",
+    "contact": "Get in touch",
     "download": "Download CV"
   },
   "experience": {
@@ -79,11 +86,6 @@
   },
   "certifications": {
     "title": "Certifications",
-    "dbf": {
-      "title": "Database Fundamentals",
-      "place": "Universidad Tecnológica Nacional",
-      "date": "Sep 2022"
-    },
     "fullstack": {
       "title": "Full Stack with React Diploma",
       "place": "Universidad Tecnológica Nacional",
@@ -113,6 +115,16 @@
       "title": "Docker and Kubernetes",
       "place": "Universidad Tecnológica Nacional",
       "date": "Jul 2025"
+    },
+    "dbe": {
+      "title": "Backend Developer Diploma",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Sep 2025"
+    },
+    "dia": {
+      "title": "Artificial Intelligence Diploma",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Dec 2025"
     }
   },
   "stack": {
@@ -123,6 +135,11 @@
       "3": "Tools",
       "4": "Learning"
     }
+  },
+  "blog": {
+    "title": "Blog",
+    "verTodos": "View all",
+    "boton": "Read article"
   },
   "footer": {
     "title": "Developed by Alejo Suarez"

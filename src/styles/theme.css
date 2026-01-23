@@ -3,11 +3,11 @@
 }
 
 .container_dark {
-  background-color: #1d2436;
+  background-color: #212121;
 }
 
 .container_light {
-  background-color: #ffffff;
+  background-color: #f5f5f5;
 }
 
 .text_dark {
@@ -15,7 +15,7 @@
 }
 
 .text_light {
-  color: #1d2436;
+  color: #212121;
 }
 
 .navitem_dark,
@@ -29,7 +29,7 @@
 .navitem_dark:hover,
 .navitem_light:hover {
   color: #ffffff;
-  background-color: #3ca58e;
+  background-color: #2e9780;
 }
 
 .background_secondary_light {
@@ -38,14 +38,14 @@
 }
 
 .background_secondary_dark {
-  background-color: #262f47;
+  background-color: #303030;
   transition: background-color 0.2s;
 }
 
 .button_dark,
 .button_light {
-  background-color: #3ca58e;
-  border: 2px solid #3ca58e;
+  background-color: #2e9780;
+  border: 2px solid #2e9780;
   color: #ffffff;
   border-radius: 0.375rem;
   padding: 10px 0;
@@ -60,40 +60,43 @@
 
 .button_secondary_dark,
 .button_secondary_light {
-  border: 2px solid #3ca58e;
-  color: #3ca58e;
+  border: 2px solid #2e9780;
+  color: #2e9780;
   border-radius: 0.375rem;
   padding: 10px 0;
   font-weight: 700;
+  text-decoration: none
 }
 
 .button_secondary_dark:hover,
 .button_secondary_light:hover {
-  background-color: #3ca58e;
+  background-color: #2e9780;
   color: #ffffff;
 }
 
 .button_secondary_dark {
-  background-color: #1d2436;
+  background-color: #212121;
 }
 
 .button_secondary_light {
-  background-color: #ffffff;
+  background-color: #f5f5f5;
 }
 
 .language {
   transition: opacity 0.2s, background-color 0.2s, border 0.2s;
 }
 
-@media (width <= 991px) {
+@media (width <=991px) {
+
   .button_dark:hover,
   .button_light:hover {
-    background-color: #3ca58e;
-    border: 2px solid #3ca58e;
+    background-color: #2e9780;
+    border: 2px solid #2e9780;
   }
+
   .button_secondary_dark:hover,
   .button_secondary_light:hover {
     background-color: transparent;
-    color: #3ca58e;
+    color: #2e9780;
   }
 }

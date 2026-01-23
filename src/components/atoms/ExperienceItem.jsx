@@ -17,7 +17,7 @@ export default function ExperienceItem({
       if (text.includes(word)) {
         modified = modified.replace(
           word,
-          `<span style="color:#3ca58e">${word}</span>`
+          `<span style="color:#2e9780">${word}</span>`
         );
       }
     });

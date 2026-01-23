@@ -27,7 +27,7 @@ export default function Stack() {
     "material",
     "tailwind"
   ];
-  const backTags = ["node", "express", "sql", "mongo", "api", "sequelize", "rc", "mp", "stripe", "paypal"];
+  const backTags = ["node", "express", "sql", "mongo", "api", "sequelize", "rc", "mp", "stripe", "paypal", "keycloak", "bullmq", "redis"];
   const toolsTags = ["ubuntu", "bash", "git", "gitlab", "docker", "wordpress", "grafana"];
   const learningTags = ["ts", "aws", "kubernetes"];
 

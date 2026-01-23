@@ -1,7 +1,7 @@
 export default function LinkedIcon({
   width = 24,
   height = 24,
-  color = "#3ca58e",
+  color = "#2e9780",
 }) {
   return (
     <svg

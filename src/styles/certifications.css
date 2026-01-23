@@ -11,8 +11,12 @@
   scale: 1.2;
 }
 
+.cert_img_wrapper {
+  border: 2px rgb(163, 163, 163) solid;
+}
+
 .certifications_card_title {
-  color: #3ca58e;
+  color: #2e9780;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.5;

@@ -4,15 +4,22 @@
     "experience": "Experiencia",
     "projects": "Proyectos",
     "certifications": "Certificaciones",
-    "technologies": "Tecnologías"
+    "technologies": "Tecnologías",
+    "blog": "Blog"
   },
   "aboutMe": {
-    "title": {
-      "1": "¡Hola!",
-      "2": "Soy",
-      "3": "Desarrollador"
+    "greeting": "Hola, soy",
+    "name": "Alejo Suárez",
+    "role": "Desarrollador Full Stack",
+    "description": {
+      "part1": "con experiencia en el desarrollo de aplicaciones web y móviles. Trabajo principalmente con",
+      "highlight1": "Node.js",
+      "highlight2": "React",
+      "connector": "y múltiples",
+      "highlight3": "dependencias e integraciones",
+      "part2": "del entorno poniendo foco en la calidad, el rendimiento y la experiencia del usuario."
     },
-    "contact": "Contáctame",
+    "contact": "Contactar",
     "download": "Descargar CV"
   },
   "experience": {
@@ -79,11 +86,6 @@
   },
   "certifications": {
     "title": "Certificaciones",
-    "dbf": {
-      "title": "Fundamentos Bases de Datos",
-      "place": "Universidad Tecnológica Nacional",
-      "date": "Sep 2022"
-    },
     "fullstack": {
       "title": "Diplomatura Full Stack con React",
       "place": "Universidad Tecnológica Nacional",
@@ -118,6 +120,16 @@
       "title": "Docker y Kubernetes",
       "place": "Universidad Tecnológica Nacional",
       "date": "Jul 2025"
+    },
+    "dbe": {
+      "title": "Diplomatura en Backend Developer",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Sep 2025"
+    },
+    "dia": {
+      "title": "Diplomatura en Inteligencia Artificial",
+      "place": "Universidad Tecnológica Nacional",
+      "date": "Dic 2025"
     }
   },
   "stack": {
@@ -128,6 +140,11 @@
       "3": "Herramientas",
       "4": "Aprendiendo"
     }
+  },
+  "blog": {
+    "title": "Blog",
+    "verTodos": "Ver todos",
+    "boton": "Leer artículo"
   },
   "footer": {
     "title": "Desarrollado por Alejo Suarez"

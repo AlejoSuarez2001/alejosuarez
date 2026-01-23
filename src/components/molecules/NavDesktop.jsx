@@ -16,14 +16,14 @@ export default function NavDesktop() {
     projects,
     certifications,
     stack,
+    blog
   } = useScroll();
 
   return (
     <>
       <nav
-        className={`${
-          scrollY == 0 ? "shadow_invisible" : "shadow_visible"
-        } container_${theme} nav_desktop position-fixed container-fluid d-flex justify-content-center p-0 m-0 py-3`}
+        className={`${scrollY == 0 ? "shadow_invisible" : "shadow_visible"
+          } container_${theme} nav_desktop position-fixed container-fluid d-flex justify-content-center p-0 m-0 py-3`}
       >
         <div className="row col-10 col-md-8 col-lg-12 col-xl-10 col-xxl-8 px-lg-4">
           <NavHeader
@@ -63,6 +63,12 @@ export default function NavDesktop() {
                 scrollToElement(stack);
               }}
               name={t(`nav.technologies`)}
+            />
+            <NavDesktopItem
+              onClick={() => {
+                scrollToElement(blog);
+              }}
+              name={t(`nav.blog`)}
             />
           </div>
         </div>

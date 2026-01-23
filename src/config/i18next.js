@@ -15,8 +15,8 @@ i18n
         translation: esTranslation,
       },
     },
-    lng: "en",
-    fallbackLng: "en",
+    lng: navigator.language.startsWith("es") ? "es" : "en",
+    fallbackLng: "es",
     interpolation: {
       escapeValue: false,
     },

@@ -5,11 +5,11 @@ import "../../styles/nav.css";
 import { useScroll } from "../../contexts/ScrollContext";
 
 export default function Nav() {
-  const [desktopBreakpoint, setdesktopBreakpoint] = useState(992);
+  const [desktopBreakpoint] = useState(992);
   const { screenWidth } = useScroll();
 
   return (
-    <section className="nav_container">
+    <section className="nav_container position-relative z-3">
       {screenWidth >= desktopBreakpoint ? <NavDesktop /> : <NavMobile />}
     </section>
   );

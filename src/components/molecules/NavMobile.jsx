@@ -20,6 +20,7 @@ export default function NavMobile() {
     projects,
     certifications,
     stack,
+    blog
   } = useScroll();
 
   useEffect(() => {
@@ -34,9 +35,8 @@ export default function NavMobile() {
   return (
     <nav
       ref={navRef}
-      className={`${menuOpen ? "nav_open" : "nav_close"} ${
-        scrollY == 0 && !menuOpen ? "shadow_invisible" : "shadow_visible"
-      } container_${theme} nav_mobile position-fixed container-fluid d-flex flex-column align-items-center p-0 m-0 py-3`}
+      className={`${menuOpen ? "nav_open" : "nav_close"} ${scrollY == 0 && !menuOpen ? "shadow_invisible" : "shadow_visible"
+        } container_${theme} nav_mobile position-fixed container-fluid d-flex flex-column align-items-center p-0 m-0 py-3`}
     >
       <div className="row col-10 col-md-8">
         <NavHeader
@@ -86,6 +86,13 @@ export default function NavMobile() {
             setMenuOpen(false);
           }}
           name={t(`nav.technologies`)}
+        />
+        <NavMobileItem
+          onClick={() => {
+            scrollToElement(blog);
+            setMenuOpen(false);
+          }}
+          name={t(`nav.blog`)}
         />
       </div>
     </nav>

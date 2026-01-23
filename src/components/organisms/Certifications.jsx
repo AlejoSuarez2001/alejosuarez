@@ -4,7 +4,8 @@ import CertificationCard from "../molecules/CertificationCard.jsx";
 import cert_dbd from "../../assets/images/DiplomaturaDB.webp";
 import cert_ddk from "../../assets/images/DiplomaturaDockerKubernetes.webp";
 import cert_fs from "../../assets/images/DiplomaturaFullStack.webp";
-import cert_dbf from "../../assets/images/FundamentosDB.webp";
+import cert_dia from "../../assets/images/DiplomaturaIA.webp";
+import cert_be from "../../assets/images/DiplomaturaBackend.webp";
 import cert_bc from "../../assets/images/BootcampUTN.webp";
 import cert_dp from "../../assets/images/DiplomaturaPython.webp";
 import cert_esi from "../../assets/images/ExpertoSeguridadInformatica.webp";
@@ -42,7 +43,14 @@ export default function Certifications() {
             title={t("certifications.ddk.title")}
             subtitle={t("certifications.ddk.place")}
             date={t("certifications.ddk.date")}
-            pdf="ddk"
+            url="https://validator.centrodeelearning.com/validator/ehZ3aEUuLx"
+          />
+          <CertificationCard
+            cert={cert_dia}
+            title={t("certifications.dia.title")}
+            subtitle={t("certifications.dia.place")}
+            date={t("certifications.dia.date")}
+            url="https://validator.centrodeelearning.com/validator/RIS8sqVI3M"
           />
           <CertificationCard
             cert={cert_bc}
@@ -56,35 +64,35 @@ export default function Certifications() {
             title={t("certifications.python.title")}
             subtitle={t("certifications.python.place")}
             date={t("certifications.python.date")}
-            pdf="dp"
+            url="https://validator.centrodeelearning.com/validator/WozRYXyULu"
+          />
+          <CertificationCard
+            cert={cert_be}
+            title={t("certifications.dbe.title")}
+            subtitle={t("certifications.dbe.place")}
+            date={t("certifications.dbe.date")}
+            url="https://validator.centrodeelearning.com/validator/0lPvJVNjBu"
           />
           <CertificationCard
             cert={cert_dbd}
             title={t("certifications.dbd.title")}
             subtitle={t("certifications.dbd.place")}
             date={t("certifications.dbd.date")}
-            pdf="dbd"
+            url="https://validator.centrodeelearning.com/validator/c4tLVirD2X"
           />
           <CertificationCard
             cert={cert_esi}
             title={t("certifications.esi.title")}
             subtitle={t("certifications.esi.place")}
             date={t("certifications.esi.date")}
-            pdf="esi"
+            url="https://validator.centrodeelearning.com/validator/Y65638FNpj"
           />
           <CertificationCard
             cert={cert_fs}
             title={t("certifications.fullstack.title")}
             subtitle={t("certifications.fullstack.place")}
             date={t("certifications.fullstack.date")}
-            pdf="fullstack"
-          />
-          <CertificationCard
-            cert={cert_dbf}
-            title={t("certifications.dbf.title")}
-            subtitle={t("certifications.dbf.place")}
-            date={t("certifications.dbf.date")}
-            pdf="dbf"
+            url="https://validator.centrodeelearning.com/validator/c8rIytTLtM"
           />
         </div>
       </div>

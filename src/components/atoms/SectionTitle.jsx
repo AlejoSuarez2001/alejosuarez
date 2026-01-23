@@ -10,7 +10,7 @@ export default function SectionTitle({ title, icon = null }) {
     >
       <div className="d-none d-md-block">{icon}</div>
       <h2
-        className={`text_${theme} language section_title pt-3 ms-0 ms-md-4 ms-lg-5`}
+        className={`text_${theme} language section_title ms-0 ms-md-4`}
         style={{ lineHeight: 1.5 }}
       >
         {title}
