@@ -65,7 +65,8 @@ export default function Blog() {
                   href="https://dev.to/alejosuarez2001"
                   target="_blank"
                   rel="noreferrer"
-                  className={`button_secondary_${theme} language col-4 col-md-2 text-center py-2`}
+                  className={`button_secondary_${theme} language text-center px-4 py-2 text-nowrap`}
+
                 >
                   {t("blog.verTodos")}
                 </a>

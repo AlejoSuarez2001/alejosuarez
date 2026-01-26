@@ -1,18 +1,17 @@
 .about_container {
-  min-height: calc(100vh - 70px);
+  height: 100vh;
   display: flex;
   align-items: center;
 }
 
 .about_subcontainer {
-  padding: 60px 0;
+  padding-bottom: 60px;
 }
 
 .about_text_hi {
   font-weight: 600;
   font-size: 1.1rem;
   letter-spacing: 0.5px;
-  margin-bottom: 6px;
 }
 
 .about_text_name {
@@ -127,7 +126,7 @@ button.language {
   }
 
   .about_subcontainer {
-    padding: 40px 0 60px;
+    padding-bottom: 60px;
   }
 
   .about_text_hi {

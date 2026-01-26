@@ -5,7 +5,7 @@ export default function SectionTitle({ title, icon = null }) {
   const { theme } = useTheme();
   return (
     <div
-      className="d-flex flex-row justify-content-start align-items-center"
+      className="d-flex flex-row justify-content-center justify-content-md-start align-items-center"
       style={{ marginBottom: "50px" }}
     >
       <div className="d-none d-md-block">{icon}</div>

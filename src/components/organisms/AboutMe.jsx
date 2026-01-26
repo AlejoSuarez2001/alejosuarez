@@ -67,8 +67,9 @@ export default function AboutMe() {
 
               <div className="col-12 mt-4 d-flex align-items-center justify-content-around justify-content-lg-start">
                 <button
-                  onClick={() => {
-                    window.location.href = "mailto:alejo.2001.suarez@gmail.com";
+                  onClick={() => { window.location.href = "mailto:alejo.2001.suarez@gmail.com"; }}
+                  style={{
+                    fontSize: window.innerWidth <= 991 ? '14px' : '16px'
                   }}
                   className={`button_${theme} language me-lg-4 col-5 col-lg-4 px-1`}
                 >
@@ -76,7 +77,10 @@ export default function AboutMe() {
                 </button>
                 <button
                   onClick={() => window.open(cvDownloadLink, "_blank")}
-                  className={`button_secondary_${theme} language me-lg-4 col-5 col-lg-4 px-1`}
+                  style={{
+                    fontSize: window.innerWidth <= 991 ? '14px' : '16px'
+                  }}
+                  className={`button_secondary_${theme} language me-lg-4 col-5 col-lg-4 px-1 text-nowrap`}
                 >
                   {t(`aboutMe.download`)}
                 </button>
