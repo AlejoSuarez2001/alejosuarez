@@ -8,7 +8,7 @@ export default function SectionTitle({ title, icon = null }) {
       className="d-flex flex-row justify-content-center justify-content-md-start align-items-center"
       style={{ marginBottom: "50px" }}
     >
-      <div className="d-none d-md-block">{icon}</div>
+      <div className="d-none d-md-block mb-2">{icon}</div>
       <h2
         className={`text_${theme} language section_title ms-0 ms-md-4`}
         style={{ lineHeight: 1.5 }}

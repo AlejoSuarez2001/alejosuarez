@@ -50,38 +50,52 @@
     }
   },
   "projects": {
-    "title": "Proyectos",
+    "web": "Proyectos Web",
+    "mobile": "Proyectos Móviles",
     "samay": {
       "title": "Samay Wayra",
-      "text": "Página web desarrollada para una empresa de alquiler de cabañas. Incluye una galería de fotos y una sección de contacto para realizar reservas de alojamiento."
+      "text": "Página web desarrollada para una empresa de alquiler de cabañas. Incluye una galería de fotos y una sección de contacto para realizar reservas de alojamiento.",
+      "url": "x"
     },
     "moviltrack": {
       "title": "Moviltrack",
-      "text": "Aplicación de gestión integral diseñada para optimizar la administración interna de proyectos y recursos empresariales. Centraliza información, genera reportes, ofrece métricas de rendimiento, análisis de rentabilidad y gestión de clientes, proveedores, productos y proyectos. Incluye un sistema de roles y paneles de control para supervisar métricas y el desempeño general de la empresa."
+      "text": "Aplicación de gestión integral diseñada para optimizar la administración interna de proyectos y recursos empresariales. Centraliza información, genera reportes, ofrece métricas de rendimiento, análisis de rentabilidad y gestión de clientes, proveedores, productos y proyectos. Incluye un sistema de roles y paneles de control para supervisar métricas y el desempeño general de la empresa.",
+      "url": "x"
     },
     "pap": {
       "title": "Paso a Paso",
-      "text": "Aplicación web desarrollada para una empresa mayorista, permite visualizar los productos disponibles y añadirlos a un carrito para realizar consultas. Además, incluye un panel de administrador para gestionar productos y configurar aspectos generales de la página."
+      "text": "Aplicación web desarrollada para una empresa mayorista, permite visualizar los productos disponibles y añadirlos a un carrito para realizar consultas. Además, incluye un panel de administrador para gestionar productos y configurar aspectos generales de la página.",
+      "url": "x"
     },
     "traducciones": {
-      "title": "Traducciones",
-      "text": "Microservicio para un portal universitario, diseñado para traducir y corregir archivos. Gestiona la carga y descarga de documentos y cuenta con roles específicos para cada tipo de usuario. Además, incluye un sistema de notificación por correo electrónico para mantener a los usuarios informados."
+      "title": "SIA Traducciones",
+      "text": "Microservicio para un portal universitario, diseñado para traducir y corregir archivos. Gestiona la carga y descarga de documentos y cuenta con roles específicos para cada tipo de usuario. Además, incluye un sistema de notificación por correo electrónico para mantener a los usuarios informados.",
+      "url": "https://sia.frba.utn.edu.ar/traducciones/solicitante"
     },
     "ripadmin": {
       "title": "RIP Admin",
-      "text": "Aplicación web para la administración de la aplicación móvil 'RIP Alive'. Permite a los administradores visualizar la información de los usuarios, gestionar el estado de las suscripciones y pagos, configurar catálogos de la aplicación, generar cupones de descuento, entre otras funcionalidades."
+      "text": "Aplicación web para la administración de la aplicación móvil 'RIP Alive'. Permite a los administradores visualizar la información de los usuarios, gestionar el estado de las suscripciones y pagos, configurar catálogos de la aplicación, generar cupones de descuento, entre otras funcionalidades.",
+      "url": "x"
     },
     "ripalive": {
       "title": "RIP Alive",
-      "text": "Aplicación móvil diseñada para permitir a los usuarios guardar su información importante en caso de fallecimiento, con el fin de informar a sus familiares sobre sus últimos deseos. Los usuarios pueden almacenar detalles sobre qué hacer con sus pertenencias, contactos clave, inversiones, información personal y de salud, entre otros. La app cuenta con un sistema de suscripción de pago y una tienda con productos."
+      "text": "Aplicación móvil diseñada para permitir a los usuarios guardar su información importante en caso de fallecimiento, con el fin de informar a sus familiares sobre sus últimos deseos. Los usuarios pueden almacenar detalles sobre qué hacer con sus pertenencias, contactos clave, inversiones, información personal y de salud, entre otros. La app cuenta con un sistema de suscripción de pago y una tienda con productos.",
+      "url": "https://ripalive.com/"
     },
     "credential": {
       "title": "Credencial UTN",
-      "text": "Aplicación móvil diseñada como credencial digital para una universidad. Permite a los estudiantes validarse como alumnos mediante un código QR y facilita el acceso a información útil, como las materias en curso, el historial académico y una agenda detallada con los horarios de cada asignatura. También incluye una sección para descargar la constancia de alumno."
+      "text": "Aplicación móvil diseñada como credencial digital para una universidad. Permite a los estudiantes validarse como alumnos mediante un código QR y facilita el acceso a información útil, como las materias en curso, el historial académico y una agenda detallada con los horarios de cada asignatura. También incluye una sección para descargar la constancia de alumno.",
+      "url": "x"
+    },
+    "difusiones": {
+      "title": "Sistema de Difusiones",
+      "text": "Sistema de envío masivo de correos electrónicos desarrollado para la Universidad Tecnológica Nacional, consumido por todas las áreas de la institución. Permite la segmentación de difusiones mediante alias propios de cada área, facilitando el envío dirigido de comunicaciones. Incluye funcionalidades de seguimiento de envíos y la creación y gestión de listas de destinatarios, optimizando y agilizando los procesos de comunicación institucional.",
+      "url": "https://sia.frba.utn.edu.ar/difusiones"
     },
     "siaFrontend": {
       "title": "SIA Frontend",
-      "text": "El Frontend de SIA (Sistema Integrado de Aplicaciones) conecta los sistemas de la Facultad Tecnológica de Buenos Aires, ofreciendo una interfaz centralizada para estudiantes, docentes y administrativos. Desarrollado con tecnologías modernas como React y Material UI, el sistema garantiza navegación eficiente, accesibilidad y compatibilidad en múltiples dispositivos, integrando procesos académicos y administrativos en una sola plataforma."
+      "text": "El Frontend de SIA (Sistema Integrado de Aplicaciones) conecta los sistemas de la Facultad Tecnológica de Buenos Aires, ofreciendo una interfaz centralizada para estudiantes, docentes y administrativos. Desarrollado con tecnologías modernas como React y Material UI, el sistema garantiza navegación eficiente, accesibilidad y compatibilidad en múltiples dispositivos, integrando procesos académicos y administrativos en una sola plataforma.",
+      "url": "https://sia.frba.utn.edu.ar/"
     }
   },
   "certifications": {

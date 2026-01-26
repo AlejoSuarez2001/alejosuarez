@@ -50,38 +50,52 @@
     }
   },
   "projects": {
-    "title": "Projects",
+    "web": "Web Projects",
+    "mobile": "Mobile Projects",
     "samay": {
       "title": "Samay Wayra",
-      "text": "Web page developed for a cabin rental company. It includes a photo gallery and a contact section to make accommodation reservations."
+      "text": "Web page developed for a cabin rental company. It includes a photo gallery and a contact section to make accommodation reservations.",
+      "url": null
     },
     "moviltrack": {
       "title": "Moviltrack",
-      "text": "Integrated management application designed to optimize internal project and resource handling for companies. Centralizes information, generates reports, provides performance metrics, profitability analysis, and manages clients, suppliers, products, and projects. Features a role-based access system and dashboards for tracking metrics and overall business performance."
+      "text": "Integrated management application designed to optimize internal project and resource handling for companies. Centralizes information, generates reports, provides performance metrics, profitability analysis, and manages clients, suppliers, products, and projects. Features a role-based access system and dashboards for tracking metrics and overall business performance.",
+      "url": null
     },
     "pap": {
       "title": "Paso a Paso",
-      "text": "Web application developed for a wholesale company, enabling users to browse available products and add them to a cart for request purposes. Additionally, it includes an admin panel to manage products and configure general page settings."
+      "text": "Web application developed for a wholesale company, enabling users to browse available products and add them to a cart for request purposes. Additionally, it includes an admin panel to manage products and configure general page settings.",
+      "url": null
     },
     "traducciones": {
-      "title": "Traducciones",
-      "text": "Microservice for a university portal, designed to translate and correct files. It manages the uploading and downloading of documents and includes specific roles for each user type. Additionally, it includes an email notification system to keep users informed."
+      "title": "SIA Translations",
+      "text": "Microservice for a university portal, designed to translate and correct files. It manages the uploading and downloading of documents and includes specific roles for each user type. Additionally, it includes an email notification system to keep users informed.",
+      "url": "https://sia.frba.utn.edu.ar/traducciones/solicitante"
     },
     "ripadmin": {
       "title": "RIP Admin",
-      "text": "Web application for managing the 'RIP Alive' mobile app. It allows administrators to view user information, manage subscription and payment statuses, configure app catalogs, generate discount coupons, and more."
+      "text": "Web application for managing the 'RIP Alive' mobile app. It allows administrators to view user information, manage subscription and payment statuses, configure app catalogs, generate discount coupons, and more.",
+      "url": null
     },
     "ripalive": {
       "title": "RIP Alive",
-      "text": "Mobile application designed to allow users to save all their important information in case of death, to inform family members of their final wishes. Users can store details about what to do with their belongings, key contacts, investments, personal and health information, and more. The app includes a built-in subscription system and a store for purchasing products."
+      "text": "Mobile application designed to allow users to save all their important information in case of death, to inform family members of their final wishes. Users can store details about what to do with their belongings, key contacts, investments, personal and health information, and more. The app includes a built-in subscription system and a store for purchasing products.",
+      "url": "https://ripalive.com/"
     },
     "credential": {
       "title": "Credencial UTN",
-      "text": "Mobile application designed as a digital credential for a university. It allows students to verify their enrollment status with a QR code and provides access to useful information, such as current courses, academic records, and a detailed schedule with class times. It also includes a section to download an enrollment certificate."
+      "text": "Mobile application designed as a digital credential for a university. It allows students to verify their enrollment status with a QR code and provides access to useful information, such as current courses, academic records, and a detailed schedule with class times. It also includes a section to download an enrollment certificate.",
+      "url": null
+    },
+    "difusiones": {
+      "title": "Broadcast System",
+      "text": "Mass email delivery system developed for the National Technological University, used by all areas of the institution. It enables message segmentation through area-specific aliases, allowing targeted communication delivery. The system includes delivery tracking features and the creation and management of recipient lists, streamlining and optimizing institutional communication processes.",
+      "url": "https://sia.frba.utn.edu.ar/difusiones"
     },
     "siaFrontend": {
       "title": "SIA Frontend",
-      "text": "The SIA (Integrated Applications System) Frontend connects the systems of the Faculty of Technology of Buenos Aires, providing a centralized interface for students, faculty, and staff. Built with modern technologies like React and Material UI, it ensures efficient navigation, accessibility, and cross-device compatibility, integrating academic and administrative processes into a single platform."
+      "text": "The SIA (Integrated Applications System) Frontend connects the systems of the Faculty of Technology of Buenos Aires, providing a centralized interface for students, faculty, and staff. Built with modern technologies like React and Material UI, it ensures efficient navigation, accessibility, and cross-device compatibility, integrating academic and administrative processes into a single platform.",
+      "url": "https://sia.frba.utn.edu.ar/"
     }
   },
   "certifications": {

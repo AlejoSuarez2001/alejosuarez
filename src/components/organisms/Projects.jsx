@@ -12,9 +12,10 @@ import moviltrack from "../../assets/videos/moviltrack.webm";
 import ripalive1 from "../../assets/videos/ripalive1.webm";
 import ripalive2 from "../../assets/videos/ripalive2.webm";
 import siaFrontend from "../../assets/videos/siaFrontend.webm";
+import difusiones from "../../assets/videos/difusiones.webm";
 import { useRef, useEffect } from "react";
 import { useScroll } from "../../contexts/ScrollContext";
-import { PiCubeBold } from "react-icons/pi";
+import { PiDeviceMobile, PiMonitor } from "react-icons/pi";
 import { useTheme } from "../../contexts/ThemeContext";
 import "../../styles/projects.css";
 
@@ -35,49 +36,22 @@ export default function Projects() {
     >
       <div className="col-12 col-md-8 col-lg-12 col-xl-10 col-xxl-8">
         <SectionTitle
-          title={t(`projects.title`)}
-          icon={<PiCubeBold className={`text_${theme}`} fontSize={40} />}
+          title={t(`projects.web`)}
+          icon={<PiMonitor className={`text_${theme}`} fontSize={40} />}
         />
         <div className="d-flex flex-wrap col-12 justify-content-around">
           <ProjectWebCard
-            video={moviltrack}
-            title={t("projects.moviltrack.title")}
-            text={t("projects.moviltrack.text")}
-            technologies={[
-              "git",
-              "react",
-              "html",
-              "css",
-              "js",
-              "tailwind",
-              "node",
-              "mongo",
-            ]}
-          />
-          <ProjectWebCard
-            video={pap}
-            title={t("projects.pap.title")}
-            text={t("projects.pap.text")}
+            video={difusiones}
+            title={t("projects.difusiones.title")}
+            text={t("projects.difusiones.text")}
+            url={t("projects.difusiones.url")}
             technologies={[
               "git",
               "docker",
               "react",
-              "html",
-              "css",
-              "js",
-              "chakra",
-              "node",
-              "sql",
-            ]}
-          />
-          <ProjectWebCard
-            video={traducciones}
-            title={t("projects.traducciones.title")}
-            text={t("projects.traducciones.text")}
-            technologies={[
-              "git",
-              "docker",
-              "react",
+              "redis",
+              "bullmq",
+              "material",
               "html",
               "css",
               "js",
@@ -89,6 +63,7 @@ export default function Projects() {
             video={ripadmin}
             title={t("projects.ripadmin.title")}
             text={t("projects.ripadmin.text")}
+            url={t("projects.ripadmin.url")}
             technologies={[
               "git",
               "react",
@@ -102,30 +77,90 @@ export default function Projects() {
             ]}
           />
           <ProjectWebCard
-            video={siaFrontend}
-            title={t("projects.siaFrontend.title")}
-            text={t("projects.siaFrontend.text")}
+            video={moviltrack}
+            title={t("projects.moviltrack.title")}
+            text={t("projects.moviltrack.text")}
+            url={t("projects.moviltrack.url")}
             technologies={[
               "git",
               "react",
               "html",
               "css",
               "js",
+              "tailwind",
               "node",
-              "material"
+              "mongo",
+            ]}
+          />
+          <ProjectWebCard
+            video={traducciones}
+            title={t("projects.traducciones.title")}
+            text={t("projects.traducciones.text")}
+            url={t("projects.traducciones.url")}
+            technologies={[
+              "git",
+              "docker",
+              "react",
+              "material",
+              "html",
+              "css",
+              "js",
+              "node",
+              "sql",
+            ]}
+          />
+          <ProjectWebCard
+            video={siaFrontend}
+            title={t("projects.siaFrontend.title")}
+            text={t("projects.siaFrontend.text")}
+            url={t("projects.siaFrontend.url")}
+            technologies={[
+              "git",
+              "react",
+              "material",
+              "html",
+              "css",
+              "js",
+              "node",
+            ]}
+          />
+          <ProjectWebCard
+            video={pap}
+            title={t("projects.pap.title")}
+            text={t("projects.pap.text")}
+            url={t("projects.pap.url")}
+            technologies={[
+              "git",
+              "docker",
+              "react",
+              "html",
+              "css",
+              "js",
+              "chakra",
+              "node",
+              "sql",
             ]}
           />
           <ProjectWebCard
             video={samay}
             title={t("projects.samay.title")}
             text={t("projects.samay.text")}
+            url={t("projects.samay.url")}
             technologies={["git", "html", "css", "js", "bootstrap"]}
           />
+        </div>
+        <SectionTitle
+          title={t(`projects.mobile`)}
+          icon={<PiDeviceMobile className={`text_${theme}`} fontSize={40} />}
+        />
+        <div className="d-flex flex-wrap col-12 justify-content-around">
+
           <ProjectMobileCard
             video1={ripalive1}
             video2={ripalive2}
             title={t("projects.ripalive.title")}
             text={t("projects.ripalive.text")}
+            url={t("projects.ripalive.url")}
             technologies={["git", "reactNative", "css", "js", "node", "mongo", "rc", "stripe"]}
           />
           <ProjectMobileCard
@@ -133,6 +168,7 @@ export default function Projects() {
             video2={credencial2}
             title={t("projects.credential.title")}
             text={t("projects.credential.text")}
+            url={t("projects.credential.url")}
             technologies={["git", "docker", "css", "reactNative", "js", "node"]}
           />
         </div>

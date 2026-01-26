@@ -33,13 +33,15 @@
 }
 
 .background_secondary_light {
-  background-color: #f3f3f3;
+  background-color: #ececec;
   transition: background-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .background_secondary_dark {
   background-color: #303030;
   transition: background-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .button_dark,

@@ -16,6 +16,8 @@ import rcIcon from "../../assets/icons/rc.webp";
 import stripeIcon from "../../assets/icons/stripe.webp";
 import materialIcon from "../../assets/icons/materialIcon.webp";
 import paypalIcon from "../../assets/icons/paypal.webp";
+import bullmqIcon from "../../assets/icons/bullmq.webp";
+import redisIcon from "../../assets/icons/redis.webp";
 
 const tagList = {
   react: { name: "React", icon: reactIcon },
@@ -36,6 +38,8 @@ const tagList = {
   material: { name: "Material UI", icon: materialIcon },
   paypal: { name: "PayPal", icon: paypalIcon },
   tailwind: { name: "Tailwind", icon: tailwindIcon },
+  bullmq: { name: "BullMQ", icon: bullmqIcon },
+  redis: { name: "Redis", icon: redisIcon },
 };
 
 export default function Tag({ tag }) {
