@@ -96,6 +96,11 @@
       "title": "SIA Frontend",
       "text": "El Frontend de SIA (Sistema Integrado de Aplicaciones) conecta los sistemas de la Facultad Tecnológica de Buenos Aires, ofreciendo una interfaz centralizada para estudiantes, docentes y administrativos. Desarrollado con tecnologías modernas como React y Material UI, el sistema garantiza navegación eficiente, accesibilidad y compatibilidad en múltiples dispositivos, integrando procesos académicos y administrativos en una sola plataforma.",
       "url": "https://sia.frba.utn.edu.ar/"
+    },
+    "sicyt": {
+      "title": "Sistema de Investigadores",
+      "text": "Sistema web encargado de centralizar la gestión de proyectos de investigación e investigadores. Permite la carga, seguimiento y administración de proyectos, la asignación de investigadores y roles, y el control de estados y avances. Además, facilita la gestión de convocatorias, documentación asociada y reportes, optimizando los procesos administrativos y el acceso a la información dentro del ámbito académico.",
+      "url": "x"
     }
   },
   "certifications": {

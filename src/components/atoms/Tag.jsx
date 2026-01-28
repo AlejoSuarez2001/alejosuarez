@@ -18,6 +18,8 @@ import materialIcon from "../../assets/icons/materialIcon.webp";
 import paypalIcon from "../../assets/icons/paypal.webp";
 import bullmqIcon from "../../assets/icons/bullmq.webp";
 import redisIcon from "../../assets/icons/redis.webp";
+import sequelizeIcon from "../../assets/icons/sequelize.webp";
+import keycloakIcon from "../../assets/icons/keycloak.webp";
 
 const tagList = {
   react: { name: "React", icon: reactIcon },
@@ -40,6 +42,9 @@ const tagList = {
   tailwind: { name: "Tailwind", icon: tailwindIcon },
   bullmq: { name: "BullMQ", icon: bullmqIcon },
   redis: { name: "Redis", icon: redisIcon },
+  sequelize: { name: "sequelize", icon: sequelizeIcon },
+  keycloak: { name: "keycloak", icon: keycloakIcon },
+
 };
 
 export default function Tag({ tag }) {

@@ -96,6 +96,11 @@
       "title": "SIA Frontend",
       "text": "The SIA (Integrated Applications System) Frontend connects the systems of the Faculty of Technology of Buenos Aires, providing a centralized interface for students, faculty, and staff. Built with modern technologies like React and Material UI, it ensures efficient navigation, accessibility, and cross-device compatibility, integrating academic and administrative processes into a single platform.",
       "url": "https://sia.frba.utn.edu.ar/"
+    },
+    "sicyt": {
+      "title": "Researchers System",
+      "text": "Web system designed to centralize the management of research projects and researchers. It allows the creation, tracking, and administration of projects, the assignment of researchers and roles, and the monitoring of project statuses and progress. Additionally, it supports the management of calls for proposals, related documentation, and reporting, optimizing administrative processes and access to information within the academic environment.",
+      "url": "x"
     }
   },
   "certifications": {

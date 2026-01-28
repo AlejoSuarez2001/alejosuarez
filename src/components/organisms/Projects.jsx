@@ -9,6 +9,7 @@ import traducciones from "../../assets/videos/traducciones.webm";
 import credencial1 from "../../assets/videos/credencial1.webm";
 import credencial2 from "../../assets/videos/credencial2.webm";
 import moviltrack from "../../assets/videos/moviltrack.webm";
+import sicyt from "../../assets/videos/sicyt.webm";
 import ripalive1 from "../../assets/videos/ripalive1.webm";
 import ripalive2 from "../../assets/videos/ripalive2.webm";
 import siaFrontend from "../../assets/videos/siaFrontend.webm";
@@ -52,11 +53,33 @@ export default function Projects() {
               "redis",
               "bullmq",
               "material",
+              "keycloak",
               "html",
               "css",
               "js",
               "node",
               "sql",
+            ]}
+          />
+          <ProjectWebCard
+            video={sicyt}
+            title={t("projects.sicyt.title")}
+            text={t("projects.sicyt.text")}
+            url={t("projects.sicyt.url")}
+            technologies={[
+              "git",
+              "react",
+              "html",
+              "css",
+              "js",
+              "docker",
+              "keycloak",
+              "tailwind",
+              "sequelize",
+              "sql",
+              "node",
+              "redis",
+              "bullmq",
             ]}
           />
           <ProjectWebCard
@@ -88,6 +111,7 @@ export default function Projects() {
               "css",
               "js",
               "tailwind",
+              "sequelize",
               "node",
               "mongo",
             ]}
@@ -105,7 +129,9 @@ export default function Projects() {
               "html",
               "css",
               "js",
+              "keycloak",
               "node",
+              "sequelize",
               "sql",
             ]}
           />
@@ -118,10 +144,12 @@ export default function Projects() {
               "git",
               "react",
               "material",
+              "docker",
               "html",
               "css",
               "js",
               "node",
+              "keycloak",
             ]}
           />
           <ProjectWebCard
@@ -139,6 +167,7 @@ export default function Projects() {
               "chakra",
               "node",
               "sql",
+              "sequelize"
             ]}
           />
           <ProjectWebCard
