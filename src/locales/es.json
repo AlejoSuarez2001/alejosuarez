@@ -156,8 +156,10 @@
     "subtitle": {
       "1": "Frontend",
       "2": "Backend",
-      "3": "Herramientas",
-      "4": "Aprendiendo"
+      "3": "CI/CD",
+      "4": "Herramientas",
+      "5": "Base de Datos",
+      "6": "Aprendiendo"
     }
   },
   "blog": {

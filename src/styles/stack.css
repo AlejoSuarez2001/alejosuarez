@@ -9,6 +9,37 @@
 }
 
 .stack_tag_name {
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.stack-tech-card-light,
+.stack-tech-card-dark {
+  transition: all 0.15s ease;
+}
+
+.stack-tech-card-light:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.14);
+}
+
+.stack-tech-card-dark:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.08);
+}
+
+.stack_img {
+  width: 29px;
+  height: 29px;
+}
+
+@media (width <=991px) {
+  .stack_tag_name {
+    font-size: 13px;
+  }
+
+  .stack_img {
+    width: 25px;
+    height: 25px;
+  }
 }

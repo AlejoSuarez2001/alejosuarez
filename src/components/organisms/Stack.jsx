@@ -27,9 +27,49 @@ export default function Stack() {
     "material",
     "tailwind"
   ];
-  const backTags = ["node", "express", "sql", "mongo", "api", "sequelize", "rc", "mp", "stripe", "paypal", "keycloak", "bullmq", "redis"];
-  const toolsTags = ["ubuntu", "bash", "git", "gitlab", "docker", "wordpress", "grafana"];
-  const learningTags = ["ts", "aws", "kubernetes"];
+  const backTags = [
+    "node",
+    "express",
+    "api",
+    "sequelize",
+    "rc",
+    "mp",
+    "stripe",
+    "paypal",
+    "keycloak",
+    "bullmq",
+    "redis"
+  ];
+  const cicdTags = [
+    "bash",
+    "gitlab",
+    "docker",
+    "jenkins",
+    "grafana",
+    "aws",
+    "kubernetes"
+  ]
+  const toolTags = [
+    "ubuntu",
+    "bash",
+    "git",
+    "gitlab",
+    "docker",
+    "wordpress",
+    "grafana"
+  ];
+  const dbTags = [
+    "sql",
+    "mysql",
+    "postgre",
+    "mongo",
+    "redis"
+  ]
+  const learningTags = [
+    "ts",
+    "aws",
+    "kubernetes"
+  ];
 
   useEffect(() => {
     setStack(stackRef);
@@ -56,10 +96,18 @@ export default function Stack() {
           />
           <StackTechnologieContainer
             title={t("stack.subtitle.3")}
-            tags={toolsTags}
+            tags={cicdTags}
           />
           <StackTechnologieContainer
             title={t("stack.subtitle.4")}
+            tags={toolTags}
+          />
+          <StackTechnologieContainer
+            title={t("stack.subtitle.5")}
+            tags={dbTags}
+          />
+          <StackTechnologieContainer
+            title={t("stack.subtitle.6")}
             tags={learningTags}
           />
         </div>

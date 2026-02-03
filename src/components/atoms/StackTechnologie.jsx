@@ -33,6 +33,9 @@ import grafana from "../../assets/images/grafana.webp";
 import keycloak from "../../assets/images/keycloak.webp";
 import bullmq from "../../assets/images/bullmq.webp";
 import redis from "../../assets/images/redis.webp";
+import mysql from "../../assets/images/mysql.webp";
+import postgre from "../../assets/images/postgre.webp";
+import jenkins from "../../assets/images/jenkins.webp";
 
 const tagList = {
   react: { name: "React", img: react },
@@ -69,20 +72,19 @@ const tagList = {
   grafana: { name: "Grafana", img: grafana },
   keycloak: { name: "Keycloak Auth", img: keycloak },
   bullmq: { name: "BullMQ", img: bullmq },
+  mysql: { name: "MySql", img: mysql },
+  postgre: { name: "PostgreSQL", img: postgre },
   redis: { name: "Redis", img: redis },
+  jenkins: { name: "Jenkins", img: jenkins },
 };
 
 export default function StackTechnologie({ tag }) {
   const { theme } = useTheme();
 
   return (
-    <div
-      className="rounded-2 d-flex flex-column col-5 col-sm-3 align-items-center me-3 mb-4 p-2"
-    >
-      <img className="mb-3" width="50" height="50" src={tagList[tag].img} />
-      <span className={`text_${theme} stack_tag_name text-center`}>
-        {tagList[tag].name}
-      </span>
+    <div className={`stack-tech-card-${theme} d-flex align-items-center gap-3 p-3 rounded-4`}>
+      <img className="stack_img" src={tagList[tag].img} alt={tagList[tag].name} />
+      <span className={`text_${theme} stack_tag_name`}>{tagList[tag].name}</span>
     </div>
   );
 }
