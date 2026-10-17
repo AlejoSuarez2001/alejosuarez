@@ -6,6 +6,7 @@ import Experience from "./components/organisms/Experience";
 import Projects from "./components/organisms/Projects";
 import Certifications from "./components/organisms/Certifications";
 import Stack from "./components/organisms/Stack";
+import AppliedAI from "./components/organisms/AppliedAI";
 import Footer from "./components/organisms/Footer";
 import { ScrollContextProvider } from "./contexts/ScrollContext";
 import ToTopArrow from "./components/atoms/ToTopArrow";
@@ -21,6 +22,7 @@ function App() {
         <Projects />
         <Certifications />
         <Stack />
+        <AppliedAI />
         <Blog />
         <Footer />
         <ToTopArrow />

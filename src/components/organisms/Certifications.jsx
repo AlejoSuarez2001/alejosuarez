@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import SectionTitle from "../atoms/SectionTitle";
 import CertificationCard from "../molecules/CertificationCard.jsx";
+import CertificationGroup from "../molecules/CertificationGroup.jsx";
 import cert_dbd from "../../assets/images/DiplomaturaDB.webp";
 import cert_ddk from "../../assets/images/DiplomaturaDockerKubernetes.webp";
 import cert_fs from "../../assets/images/DiplomaturaFullStack.webp";
@@ -9,6 +10,9 @@ import cert_be from "../../assets/images/DiplomaturaBackend.webp";
 import cert_bc from "../../assets/images/BootcampUTN.webp";
 import cert_dp from "../../assets/images/DiplomaturaPython.webp";
 import cert_esi from "../../assets/images/ExpertoSeguridadInformatica.webp";
+import cert_placeholder from "../../assets/images/certPlaceholder.svg";
+import cert_degree from "../../assets/images/degreeUtn.svg";
+import cert_ace from "../../assets/images/GoogleACE.jpg";
 import { useRef, useEffect } from "react";
 import { useScroll } from "../../contexts/ScrollContext";
 import { LuGraduationCap } from "react-icons/lu";
@@ -37,7 +41,30 @@ export default function Certifications() {
             <LuGraduationCap className={`text_${theme}`} fontSize={40} />
           }
         />
-        <div className="d-flex flex-wrap col-12 justify-content-around">
+        <CertificationGroup title={t("certifications.groups.degree")}>
+          <CertificationCard
+            cert={cert_degree}
+            title={t("certifications.degree.title")}
+            subtitle={t("certifications.degree.place")}
+            date={t("certifications.degree.date")}
+          />
+        </CertificationGroup>
+        <CertificationGroup title={t("certifications.groups.google")}>
+          <CertificationCard
+            cert={cert_ace}
+            title={t("certifications.ace.title")}
+            subtitle={t("certifications.ace.place")}
+            date={t("certifications.ace.date")}
+            url="https://www.credly.com/badges/8b0bfc20-09ac-4eb7-b058-a96a1ad55737"
+          />
+          <CertificationCard
+            cert={cert_placeholder}
+            title={t("certifications.pcd.title")}
+            subtitle={t("certifications.pcd.place")}
+            date={t("certifications.pcd.date")}
+          />
+        </CertificationGroup>
+        <CertificationGroup title={t("certifications.groups.utn")}>
           <CertificationCard
             cert={cert_ddk}
             title={t("certifications.ddk.title")}
@@ -94,7 +121,7 @@ export default function Certifications() {
             date={t("certifications.fullstack.date")}
             url="https://validator.centrodeelearning.com/validator/c8rIytTLtM"
           />
-        </div>
+        </CertificationGroup>
       </div>
     </section>
   );

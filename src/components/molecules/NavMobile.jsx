@@ -20,6 +20,7 @@ export default function NavMobile() {
     projects,
     certifications,
     stack,
+    ai,
     blog
   } = useScroll();
 
@@ -86,6 +87,13 @@ export default function NavMobile() {
             setMenuOpen(false);
           }}
           name={t(`nav.technologies`)}
+        />
+        <NavMobileItem
+          onClick={() => {
+            scrollToElement(ai);
+            setMenuOpen(false);
+          }}
+          name={t(`nav.ai`)}
         />
         <NavMobileItem
           onClick={() => {

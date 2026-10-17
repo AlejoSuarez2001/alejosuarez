@@ -1,24 +1,84 @@
 import { useTranslation } from "react-i18next";
 import SectionTitle from "../atoms/SectionTitle";
-import ProjectWebCard from "../molecules/ProjectWebCard";
-import ProjectMobileCard from "../molecules/ProjectMobileCard";
-import samay from "../../assets/videos/samay.webm";
-import ripadmin from "../../assets/videos/ripadmin.webm";
-import pap from "../../assets/videos/pap.webm";
-import traducciones from "../../assets/videos/traducciones.webm";
-import credencial1 from "../../assets/videos/credencial1.webm";
-import credencial2 from "../../assets/videos/credencial2.webm";
-import moviltrack from "../../assets/videos/moviltrack.webm";
-import sicyt from "../../assets/videos/sicyt.webm";
-import ripalive1 from "../../assets/videos/ripalive1.webm";
-import ripalive2 from "../../assets/videos/ripalive2.webm";
-import siaFrontend from "../../assets/videos/siaFrontend.webm";
-import difusiones from "../../assets/videos/difusiones.webm";
+import CaseCard from "../molecules/CaseCard";
+import uteniaWebm from "../../assets/videos/cases/utenia/hero.webm";
+import uteniaMp4 from "../../assets/videos/cases/utenia/hero.mp4";
+import uteniaPoster from "../../assets/videos/cases/utenia/poster.jpg";
+import siaWebm from "../../assets/videos/cases/sia/hero.webm";
+import siaMp4 from "../../assets/videos/cases/sia/hero.mp4";
+import siaPoster from "../../assets/videos/cases/sia/poster.jpg";
+import moviltrackWebm from "../../assets/videos/cases/moviltrack/hero.webm";
+import moviltrackMp4 from "../../assets/videos/cases/moviltrack/hero.mp4";
+import moviltrackPoster from "../../assets/videos/cases/moviltrack/poster.jpg";
+import ripWebm from "../../assets/videos/cases/rip/hero.webm";
+import ripMp4 from "../../assets/videos/cases/rip/hero.mp4";
+import ripPoster from "../../assets/videos/cases/rip/poster.jpg";
+import sicytWebm from "../../assets/videos/cases/sicyt/hero.webm";
+import sicytMp4 from "../../assets/videos/cases/sicyt/hero.mp4";
+import sicytPoster from "../../assets/videos/cases/sicyt/poster.jpg";
 import { useRef, useEffect } from "react";
 import { useScroll } from "../../contexts/ScrollContext";
-import { PiDeviceMobile, PiMonitor } from "react-icons/pi";
+import { LuFolderOpen } from "react-icons/lu";
 import { useTheme } from "../../contexts/ThemeContext";
 import "../../styles/projects.css";
+
+const cases = [
+  {
+    id: "utenia",
+    accent: "#c41230",
+    media: { webm: uteniaWebm, mp4: uteniaMp4, poster: uteniaPoster },
+    stack: [
+      { group: "frontend", items: ["react", "tailwind"] },
+      { group: "backend", items: ["python", "fastapi", "redis", "postgre"] },
+      { group: "ai", items: ["ollama", "qdrant", "llamaindex", "docling"] },
+      { group: "infra", items: ["docker", "traefik", "jenkins", "keycloak"] },
+    ],
+  },
+  {
+    id: "sia",
+    accent: "#b71234",
+    media: { webm: siaWebm, mp4: siaMp4, poster: siaPoster },
+    stack: [
+      { group: "frontend", items: ["react", "material"] },
+      { group: "backend", items: ["node", "symfony", "bullmq", "redis"] },
+      { group: "integrations", items: ["keycloak", "ldap", "googleWorkspace"] },
+      { group: "infra", items: ["docker", "jenkins"] },
+    ],
+    site: "https://sia.frba.utn.edu.ar/",
+  },
+  {
+    id: "moviltrack",
+    accent: "#2563eb",
+    media: { webm: moviltrackWebm, mp4: moviltrackMp4, poster: moviltrackPoster },
+    stack: [
+      { group: "frontend", items: ["react", "tailwind", "tanstack"] },
+      { group: "backend", items: ["node", "express", "mongo", "puppeteer"] },
+      { group: "infra", items: ["docker", "githubActions", "azure"] },
+    ],
+  },
+  {
+    id: "rip",
+    accent: "#248a3e",
+    media: { webm: ripWebm, mp4: ripMp4, poster: ripPoster },
+    stack: [
+      { group: "app", items: ["reactNative", "expo", "rc"] },
+      { group: "backend", items: ["node", "express", "mongo"] },
+      { group: "admin", items: ["react"] },
+      { group: "integrations", items: ["stripe", "twilio", "azure"] },
+    ],
+    site: "https://ripalive.com/",
+  },
+  {
+    id: "sicyt",
+    accent: "#4f46e5",
+    media: { webm: sicytWebm, mp4: sicytMp4, poster: sicytPoster },
+    stack: [
+      { group: "frontend", items: ["react", "tailwind"] },
+      { group: "backend", items: ["node", "express", "sequelize", "mysql", "bullmq", "redis"] },
+      { group: "infra", items: ["docker", "jenkins", "keycloak"] },
+    ],
+  },
+];
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -37,169 +97,21 @@ export default function Projects() {
     >
       <div className="col-12 col-md-8 col-lg-12 col-xl-10 col-xxl-8">
         <SectionTitle
-          title={t(`projects.web`)}
-          icon={<PiMonitor className={`text_${theme}`} fontSize={40} />}
+          title={t(`projects.title`)}
+          icon={<LuFolderOpen className={`text_${theme}`} fontSize={40} />}
         />
-        <div className="d-flex flex-wrap col-12 justify-content-around">
-          <ProjectWebCard
-            video={difusiones}
-            title={t("projects.difusiones.title")}
-            text={t("projects.difusiones.text")}
-            url={t("projects.difusiones.url")}
-            technologies={[
-              "git",
-              "docker",
-              "react",
-              "redis",
-              "bullmq",
-              "material",
-              "keycloak",
-              "html",
-              "css",
-              "js",
-              "node",
-              "sql",
-            ]}
-          />
-          <ProjectWebCard
-            video={sicyt}
-            title={t("projects.sicyt.title")}
-            text={t("projects.sicyt.text")}
-            url={t("projects.sicyt.url")}
-            technologies={[
-              "git",
-              "react",
-              "html",
-              "css",
-              "js",
-              "docker",
-              "keycloak",
-              "tailwind",
-              "sequelize",
-              "sql",
-              "node",
-              "redis",
-              "bullmq",
-            ]}
-          />
-          <ProjectWebCard
-            video={ripadmin}
-            title={t("projects.ripadmin.title")}
-            text={t("projects.ripadmin.text")}
-            url={t("projects.ripadmin.url")}
-            technologies={[
-              "git",
-              "react",
-              "html",
-              "css",
-              "js",
-              "bootstrap",
-              "node",
-              "stripe",
-              "mongo",
-            ]}
-          />
-          <ProjectWebCard
-            video={moviltrack}
-            title={t("projects.moviltrack.title")}
-            text={t("projects.moviltrack.text")}
-            url={t("projects.moviltrack.url")}
-            technologies={[
-              "git",
-              "react",
-              "html",
-              "css",
-              "js",
-              "tailwind",
-              "sequelize",
-              "node",
-              "mongo",
-            ]}
-          />
-          <ProjectWebCard
-            video={traducciones}
-            title={t("projects.traducciones.title")}
-            text={t("projects.traducciones.text")}
-            url={t("projects.traducciones.url")}
-            technologies={[
-              "git",
-              "docker",
-              "react",
-              "material",
-              "html",
-              "css",
-              "js",
-              "keycloak",
-              "node",
-              "sequelize",
-              "sql",
-            ]}
-          />
-          <ProjectWebCard
-            video={siaFrontend}
-            title={t("projects.siaFrontend.title")}
-            text={t("projects.siaFrontend.text")}
-            url={t("projects.siaFrontend.url")}
-            technologies={[
-              "git",
-              "react",
-              "material",
-              "docker",
-              "html",
-              "css",
-              "js",
-              "node",
-              "keycloak",
-            ]}
-          />
-          <ProjectWebCard
-            video={pap}
-            title={t("projects.pap.title")}
-            text={t("projects.pap.text")}
-            url={t("projects.pap.url")}
-            technologies={[
-              "git",
-              "docker",
-              "react",
-              "html",
-              "css",
-              "js",
-              "chakra",
-              "node",
-              "sql",
-              "sequelize"
-            ]}
-          />
-          <ProjectWebCard
-            video={samay}
-            title={t("projects.samay.title")}
-            text={t("projects.samay.text")}
-            url={t("projects.samay.url")}
-            technologies={["git", "html", "css", "js", "bootstrap"]}
-          />
-        </div>
-        <SectionTitle
-          title={t(`projects.mobile`)}
-          icon={<PiDeviceMobile className={`text_${theme}`} fontSize={40} />}
-        />
-        <div className="d-flex flex-wrap col-12 justify-content-around">
-
-          <ProjectMobileCard
-            video1={ripalive1}
-            video2={ripalive2}
-            title={t("projects.ripalive.title")}
-            text={t("projects.ripalive.text")}
-            url={t("projects.ripalive.url")}
-            technologies={["git", "reactNative", "css", "js", "node", "mongo", "rc", "stripe"]}
-          />
-          <ProjectMobileCard
-            video1={credencial1}
-            video2={credencial2}
-            title={t("projects.credential.title")}
-            text={t("projects.credential.text")}
-            url={t("projects.credential.url")}
-            technologies={["git", "docker", "css", "reactNative", "js", "node"]}
-          />
+        <div>
+          {cases.map((item, index) => (
+            <CaseCard
+              key={item.id}
+              id={item.id}
+              number={String(index + 1).padStart(2, "0")}
+              accent={item.accent}
+              media={item.media}
+              stack={item.stack}
+              site={item.site}
+            />
+          ))}
         </div>
       </div>
     </section>

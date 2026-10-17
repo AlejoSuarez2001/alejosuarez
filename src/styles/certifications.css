@@ -35,3 +35,8 @@
 .cursor_pointer {
   cursor: pointer;
 }
+.certifications_group_title {
+  color: #2e9780;
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -5,6 +5,7 @@ export default function ExperienceItem({
   subtitle,
   date,
   text,
+  logo = null,
   lastItem = false,
 }) {
   const { theme } = useTheme();
@@ -32,8 +33,13 @@ export default function ExperienceItem({
           <i className="experience_icon bi bi-circle-fill"></i>
           <h4 className="experience_title language">{title}</h4>
         </div>
-        <div className={`text_${theme}`}>
-          <h5 className="experience_subtitle language">{subtitle}</h5>
+        <div className={`text_${theme} d-flex align-items-center gap-2 mb-2`}>
+          {logo && (
+            <span className="experience_logo">
+              <img src={logo} alt="" />
+            </span>
+          )}
+          <h5 className="experience_subtitle language m-0">{subtitle}</h5>
         </div>
         <div className={`text_${theme}`}>
           <h6

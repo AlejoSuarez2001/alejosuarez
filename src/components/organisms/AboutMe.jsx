@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { useTheme } from "../../contexts/ThemeContext";
 import AboutMeImage from "../../assets/images/me.png";
 import { useScroll } from "../../contexts/ScrollContext";
@@ -55,13 +55,10 @@ export default function AboutMe() {
                 </h1>
 
                 <p className={`text_${theme} about_text_description`}>
-                  <span className="highlight">{t("aboutMe.role")}</span>{" "}
-                  {t("aboutMe.description.part1")}{" "}
-                  <span className="highlight">{t("aboutMe.description.highlight1")}</span>,
-                  <span className="highlight">{" "}{t("aboutMe.description.highlight2")}</span>
-                  {" "}{t("aboutMe.description.connector")}{" "}
-                  <span className="highlight">{t("aboutMe.description.highlight3")}</span>{" "}
-                  {t("aboutMe.description.part2")}
+                  <Trans
+                    i18nKey="aboutMe.description"
+                    components={{ hl: <span className="highlight" /> }}
+                  />
                 </p>
               </div>
 

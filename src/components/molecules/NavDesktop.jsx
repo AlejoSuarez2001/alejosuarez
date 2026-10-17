@@ -16,6 +16,7 @@ export default function NavDesktop() {
     projects,
     certifications,
     stack,
+    ai,
     blog
   } = useScroll();
 
@@ -63,6 +64,12 @@ export default function NavDesktop() {
                 scrollToElement(stack);
               }}
               name={t(`nav.technologies`)}
+            />
+            <NavDesktopItem
+              onClick={() => {
+                scrollToElement(ai);
+              }}
+              name={t(`nav.ai`)}
             />
             <NavDesktopItem
               onClick={() => {

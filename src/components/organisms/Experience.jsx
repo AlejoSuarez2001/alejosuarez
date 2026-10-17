@@ -5,6 +5,9 @@ import { useRef, useEffect } from "react";
 import { useScroll } from "../../contexts/ScrollContext";
 import { PiSuitcaseSimpleBold } from "react-icons/pi";
 import { useTheme } from "../../contexts/ThemeContext";
+import abnLogo from "../../assets/images/experience/abn.jpeg";
+import adiniLogo from "../../assets/images/experience/adini.svg";
+import utnLogo from "../../assets/images/experience/utn.svg";
 import "../../styles/experience.css";
 
 export default function Experience() {
@@ -32,28 +35,39 @@ export default function Experience() {
           <div className="col-10 col-lg-11 p-0 pt-3 d-flex">
             <div>
               <ExperienceItem
-                title={t(`experience.freelance.title`)}
-                subtitle={t(`experience.freelance.subtitle`)}
-                date={t(`experience.freelance.date`)}
-                text={t(`experience.freelance.text`)}
+                title={t(`experience.cloud.title`)}
+                subtitle={t(`experience.cloud.subtitle`)}
+                date={t(`experience.cloud.date`)}
+                text={t(`experience.cloud.text`)}
+                logo={abnLogo}
+              />
+              <ExperienceItem
+                title={t(`experience.adini.title`)}
+                subtitle={t(`experience.adini.subtitle`)}
+                date={t(`experience.adini.date`)}
+                text={t(`experience.adini.text`)}
+                logo={adiniLogo}
               />
               <ExperienceItem
                 title={t(`experience.developer.title`)}
                 subtitle={t(`experience.developer.subtitle`)}
                 date={t(`experience.developer.date`)}
                 text={t(`experience.developer.text`)}
+                logo={utnLogo}
               />
               <ExperienceItem
                 title={t(`experience.analyst.title`)}
                 subtitle={t(`experience.analyst.subtitle`)}
                 date={t(`experience.analyst.date`)}
                 text={t(`experience.analyst.text`)}
+                logo={utnLogo}
               />
               <ExperienceItem
                 title={t(`experience.support.title`)}
                 subtitle={t(`experience.support.subtitle`)}
                 date={t(`experience.support.date`)}
                 text={t(`experience.support.text`)}
+                logo={utnLogo}
                 lastItem={true}
               />
             </div>

@@ -17,58 +17,89 @@ export default function Stack() {
     "html",
     "css",
     "js",
+    "ts",
     "react",
-    "bootstrap",
-    "chakra",
     "next",
-    "expo",
+    "astro",
     "reactNative",
-    "figma",
+    "expo",
+    "tailwind",
+    "shadcn",
     "material",
-    "tailwind"
+    "chakra",
+    "bootstrap",
+    "tanstack",
+    "figma"
   ];
   const backTags = [
     "node",
     "express",
+    "python",
+    "fastapi",
     "api",
+    "openapi",
+    "prisma",
     "sequelize",
+    "zod",
+    "appsScript",
+    "keycloak",
+    "bullmq",
     "rc",
     "mp",
     "stripe",
-    "paypal",
-    "keycloak",
-    "bullmq",
-    "redis"
+    "paypal"
   ];
-  const cicdTags = [
-    "bash",
-    "gitlab",
+  const aiTags = [
+    "gemini",
+    "ollama",
+    "vllm",
+    "llamaindex",
+    "qdrant",
+    "docling",
+    "mcp",
+    "claudeCode",
+    "codex"
+  ];
+  const gcpTags = [
+    "gcp",
+    "cloudRun",
+    "computeEngine",
+    "vertexAI",
+    "cloudStorage",
+    "bigquery",
+    "secretManager",
+    "kms",
+    "cloudBuild",
+    "firebase"
+  ];
+  const devopsTags = [
     "docker",
+    "kubernetes",
+    "helm",
+    "terraform",
+    "githubActions",
+    "gitlab",
     "jenkins",
-    "grafana",
-    "aws",
-    "kubernetes"
-  ]
-  const toolTags = [
-    "ubuntu",
-    "bash",
-    "git",
-    "gitlab",
-    "docker",
-    "wordpress",
+    "traefik",
+    "cloudflare",
     "grafana"
   ];
   const dbTags = [
     "sql",
-    "mysql",
     "postgre",
+    "mysql",
     "mongo",
-    "redis"
-  ]
-  const learningTags = [
-    "ts",
-    "aws",
-    "kubernetes"
+    "redis",
+    "supabase"
+  ];
+  const toolTags = [
+    "git",
+    "ubuntu",
+    "bash",
+    "playwright",
+    "vitest",
+    "pytest",
+    "wordpress"
   ];
 
   useEffect(() => {
@@ -85,7 +116,7 @@ export default function Stack() {
           title={t(`stack.title`)}
           icon={<TbStack2 className={`text_${theme}`} fontSize={40} />}
         />
-        <div className="d-flex flex-wrap col-12 justify-content-around">
+        <div className="d-flex flex-wrap col-12 justify-content-between">
           <StackTechnologieContainer
             title={t("stack.subtitle.1")}
             tags={frontTags}
@@ -96,19 +127,23 @@ export default function Stack() {
           />
           <StackTechnologieContainer
             title={t("stack.subtitle.3")}
-            tags={cicdTags}
+            tags={aiTags}
           />
           <StackTechnologieContainer
             title={t("stack.subtitle.4")}
-            tags={toolTags}
+            tags={gcpTags}
           />
           <StackTechnologieContainer
             title={t("stack.subtitle.5")}
-            tags={dbTags}
+            tags={devopsTags}
           />
           <StackTechnologieContainer
             title={t("stack.subtitle.6")}
-            tags={learningTags}
+            tags={dbTags}
+          />
+          <StackTechnologieContainer
+            title={t("stack.subtitle.7")}
+            tags={toolTags}
           />
         </div>
       </div>

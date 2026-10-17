@@ -15,14 +15,16 @@ export default function CertificationCard({
     bootcamp: bootcamp,
   };
 
+  const clickable = pdf || url;
+
   function handleCertificate() {
     pdf ? window.open(pdfs[pdf], "_blank") : window.open(url, "_blank");
   }
 
   return (
     <div
-      onClick={() => { handleCertificate() }}
-      className={`cursor_pointer col-12 col-lg-5 d-flex flex-wrap mb-5 align-items-center justify-content-center justify-content-sm-start`}
+      onClick={clickable ? handleCertificate : undefined}
+      className={`${clickable ? "cursor_pointer" : ""} col-12 col-lg-5 d-flex flex-wrap mb-5 align-items-center justify-content-center justify-content-sm-start`}
     >
       <div className="col-10 col-sm-3 col-md-5 col-xl-4 col-xxl-4 overflow-hidden me-0 me-sm-3 mb-3 mb-sm-0 rounded-2 cert_img_wrapper">
         <img src={cert} className="certifications_card_img" />

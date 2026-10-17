@@ -3,38 +3,37 @@
     "home": "Inicio",
     "experience": "Experiencia",
     "projects": "Proyectos",
-    "certifications": "Certificaciones",
+    "certifications": "Formación",
     "technologies": "Tecnologías",
+    "ai": "IA",
     "blog": "Blog"
   },
   "aboutMe": {
     "greeting": "Hola, soy",
     "name": "Alejo Suárez",
-    "role": "Desarrollador Full Stack",
-    "description": {
-      "part1": "con experiencia en el desarrollo de aplicaciones web y móviles. Trabajo principalmente con",
-      "highlight1": "Node.js",
-      "highlight2": "React",
-      "connector": "y múltiples",
-      "highlight3": "dependencias e integraciones",
-      "part2": "del entorno poniendo foco en la calidad, el rendimiento y la experiencia del usuario."
-    },
+    "description": "<hl>Desarrollador Full Stack & Cloud</hl> con experiencia en aplicaciones web y móviles, soluciones sobre <hl>Google Cloud</hl> e <hl>IA aplicada</hl>. Trabajo principalmente con <hl>Node.js</hl>, <hl>React</hl> y <hl>Python</hl>, poniendo foco en la calidad, el rendimiento y la experiencia del usuario. Estudiante de <hl>Ingeniería en Sistemas de Información</hl> en la UTN FRBA.",
     "contact": "Contactar",
     "download": "Descargar CV"
   },
   "experience": {
     "title": "Experiencia Laboral",
-    "freelance": {
-      "title": "Desarrollador Freelance",
-      "subtitle": "Autónomo",
+    "cloud": {
+      "title": "Cloud Developer",
+      "subtitle": "Hike · ABN Group",
+      "date": "Mayo 2026 - Actualidad",
+      "text": "Desarrollo productos de IA generativa y automatizaciones sobre Google Cloud. Construyo plataformas multi-tenant que integran modelos de Gemini a través de Vertex AI, motores de generación de contenido con validación automática de resultados y servicios serverless en Cloud Run que se integran con APIs de terceros. También participo en la infraestructura: despliegues en Compute Engine detrás de balanceadores de carga, infraestructura como código con Terraform y pruebas de concepto de migración a la nube."
+    },
+    "adini": {
+      "title": "Co-Founder",
+      "subtitle": "ADINI",
       "date": "Marzo 2024 - Actualidad",
-      "text": "Como desarrollador freelance, me especializo en diseñar y desarrollar aplicaciones web y móviles, entregando soluciones alineadas con los objetivos y necesidades de cada proyecto. Me comprometo a mantener una comunicación clara y un enfoque proactivo durante todas las etapas del desarrollo, garantizando resultados de calidad."
+      "text": "Cofundador de ADINI, agencia de desarrollo de software. Diseño y desarrollo aplicaciones web y móviles a medida, desde el relevamiento con el cliente hasta el despliegue en Kubernetes. Entre otros clientes, brindo servicios a la Universidad Tecnológica Nacional, donde desarrollo un asistente con IA basado en RAG y su evolución hacia una arquitectura multi-agente."
     },
     "developer": {
       "title": "Desarrollador de Software",
       "subtitle": "Universidad Tecnológica Nacional",
-      "date": "Mayo 2024 - Actualidad",
-      "text": "Soy desarrollador Fullstack con experiencia en la optimización de aplicaciones, asegurando un mejor rendimiento y una experiencia de usuario más fluida. Me especializo en implementar nuevas funcionalidades y módulos en sistemas existentes, así como en el desarrollo de aplicaciones desde cero, cuidando cada etapa del proceso: desde el análisis y diseño hasta la implementación y despliegue."
+      "date": "Mayo 2024 - Mayo 2026",
+      "text": "Desarrollé y mantuve los sistemas de la facultad, cuidando cada etapa del proceso: desde el análisis y diseño hasta la implementación y el despliegue. Implementé nuevas funcionalidades y módulos en sistemas existentes y desarrollé aplicaciones desde cero, optimizando su rendimiento y la experiencia de usuario. También colaboré en los servicios compartidos de la plataforma, como autenticación con Keycloak, LDAP y el proxy Traefik."
     },
     "analyst": {
       "title": "Analista Funcional",
@@ -50,61 +49,83 @@
     }
   },
   "projects": {
-    "web": "Proyectos Web",
-    "mobile": "Proyectos Móviles",
-    "samay": {
-      "title": "Samay Wayra",
-      "text": "Página web desarrollada para una empresa de alquiler de cabañas. Incluye una galería de fotos y una sección de contacto para realizar reservas de alojamiento.",
-      "url": "x"
+    "title": "Proyectos destacados",
+    "role": "Mi rol:",
+    "site": "Visitar sitio",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai": "IA",
+      "infra": "Infraestructura",
+      "app": "App",
+      "admin": "Administración",
+      "integrations": "Integraciones"
     },
-    "moviltrack": {
-      "title": "Moviltrack",
-      "text": "Aplicación de gestión integral diseñada para optimizar la administración interna de proyectos y recursos empresariales. Centraliza información, genera reportes, ofrece métricas de rendimiento, análisis de rentabilidad y gestión de clientes, proveedores, productos y proyectos. Incluye un sistema de roles y paneles de control para supervisar métricas y el desempeño general de la empresa.",
-      "url": "x"
-    },
-    "pap": {
-      "title": "Paso a Paso",
-      "text": "Aplicación web desarrollada para una empresa mayorista, permite visualizar los productos disponibles y añadirlos a un carrito para realizar consultas. Además, incluye un panel de administrador para gestionar productos y configurar aspectos generales de la página.",
-      "url": "x"
-    },
-    "traducciones": {
-      "title": "SIA Traducciones",
-      "text": "Microservicio para un portal universitario, diseñado para traducir y corregir archivos. Gestiona la carga y descarga de documentos y cuenta con roles específicos para cada tipo de usuario. Además, incluye un sistema de notificación por correo electrónico para mantener a los usuarios informados.",
-      "url": "https://sia.frba.utn.edu.ar/traducciones/solicitante"
-    },
-    "ripadmin": {
-      "title": "RIP Admin",
-      "text": "Aplicación web para la administración de la aplicación móvil 'RIP Alive'. Permite a los administradores visualizar la información de los usuarios, gestionar el estado de las suscripciones y pagos, configurar catálogos de la aplicación, generar cupones de descuento, entre otras funcionalidades.",
-      "url": "x"
-    },
-    "ripalive": {
-      "title": "RIP Alive",
-      "text": "Aplicación móvil diseñada para permitir a los usuarios guardar su información importante en caso de fallecimiento, con el fin de informar a sus familiares sobre sus últimos deseos. Los usuarios pueden almacenar detalles sobre qué hacer con sus pertenencias, contactos clave, inversiones, información personal y de salud, entre otros. La app cuenta con un sistema de suscripción de pago y una tienda con productos.",
-      "url": "https://ripalive.com/"
-    },
-    "credential": {
-      "title": "Credencial UTN",
-      "text": "Aplicación móvil diseñada como credencial digital para una universidad. Permite a los estudiantes validarse como alumnos mediante un código QR y facilita el acceso a información útil, como las materias en curso, el historial académico y una agenda detallada con los horarios de cada asignatura. También incluye una sección para descargar la constancia de alumno.",
-      "url": "x"
-    },
-    "difusiones": {
-      "title": "Sistema de Difusiones",
-      "text": "Sistema de envío masivo de correos electrónicos desarrollado para la Universidad Tecnológica Nacional, consumido por todas las áreas de la institución. Permite la segmentación de difusiones mediante alias propios de cada área, facilitando el envío dirigido de comunicaciones. Incluye funcionalidades de seguimiento de envíos y la creación y gestión de listas de destinatarios, optimizando y agilizando los procesos de comunicación institucional.",
-      "url": "https://sia.frba.utn.edu.ar/difusiones"
-    },
-    "siaFrontend": {
-      "title": "SIA Frontend",
-      "text": "El Frontend de SIA (Sistema Integrado de Aplicaciones) conecta los sistemas de la Facultad Tecnológica de Buenos Aires, ofreciendo una interfaz centralizada para estudiantes, docentes y administrativos. Desarrollado con tecnologías modernas como React y Material UI, el sistema garantiza navegación eficiente, accesibilidad y compatibilidad en múltiples dispositivos, integrando procesos académicos y administrativos en una sola plataforma.",
-      "url": "https://sia.frba.utn.edu.ar/"
-    },
-    "sicyt": {
-      "title": "Sistema de Investigadores",
-      "text": "Sistema web encargado de centralizar la gestión de proyectos de investigación e investigadores. Permite la carga, seguimiento y administración de proyectos, la asignación de investigadores y roles, y el control de estados y avances. Además, facilita la gestión de convocatorias, documentación asociada y reportes, optimizando los procesos administrativos y el acceso a la información dentro del ámbito académico.",
-      "url": "x"
+    "items": {
+      "utenia": {
+        "client": "UTN FRBA",
+        "kind": "Agente de IA",
+        "title": "UtenIA",
+        "tagline": "Un agente de IA que responde con la documentación de la facultad y los datos del campus virtual de cada estudiante, con toda la inferencia en servidores propios.",
+        "description": "Un servicio sincroniza la wiki institucional, convierte cada página a markdown y genera sus embeddings. Cada pregunta se expande en varias consultas sobre una búsqueda híbrida en Qdrant y un reranker elige los fragmentos más relevantes. Un agente supervisor decide en cada turno si consultar la documentación, el campus virtual o ambos, a través de un servicio a medida con herramientas para Moodle que filtra los datos de cada estudiante del lado del servidor.",
+        "role": "desarrollo full stack del pipeline RAG, el agente con tool-calling, el servicio de herramientas para Moodle y el frontend de chat."
+      },
+      "sia": {
+        "client": "UTN FRBA",
+        "kind": "Portal institucional",
+        "title": "SIA",
+        "tagline": "El portal único de la facultad: un solo acceso a todos sus servicios, con credencial digital, recibos, comunicaciones masivas con seguimiento y soporte técnico integrados.",
+        "description": "Un frontend en React con login único de Keycloak y permisos por rol y filiación, conectado a una API que deriva cada pedido al microservicio que corresponde. Suma servicios de identidad y correo sobre LDAP y Google Workspace, una ticketera conectada a la estructura de la facultad y un servicio de difusiones con colas: envíos en lotes, límite por remitente, reintentos con backoff y el estado final de cada difusión.",
+        "role": "desarrollo del frontend del portal, de los módulos de alias, áreas y traducciones, y del servicio de difusiones masivas, con colas, reintentos y seguimiento de cada envío."
+      },
+      "moviltrack": {
+        "client": "Moviltrack · México",
+        "kind": "Sistema de gestión",
+        "title": "Moviltrack",
+        "tagline": "Cotizaciones, pedidos, remisiones y cobros en un solo circuito, con cargos recurrentes y avisos de vencimiento automáticos y la rentabilidad de cada proyecto a la vista.",
+        "description": "Una cotización aprobada se convierte en pedido con un clic y se sigue en su remisión, su factura y su cobro. Los documentos se generan en PDF con el formato de la empresa, los servicios mensuales generan su cargo solos y cada licencia avisa al cliente antes de vencer. Un tablero muestra ventas, utilidad y proyectos activos, con roles, doble factor de autenticación y despliegue continuo en Azure.",
+        "role": "desarrollo full stack del sistema, desde la API y los documentos en PDF hasta el tablero de dirección."
+      },
+      "rip": {
+        "client": "RIP Alive · México",
+        "kind": "App móvil",
+        "title": "RIP Alive",
+        "tagline": "Una app para iOS y Android para dejar todo en orden: datos vitales a un QR de distancia para una emergencia y un legado completo que los beneficiarios sólo ven cuando corresponde.",
+        "description": "Una sola base de código publicada en App Store y Google Play, con desbloqueo biométrico y notificaciones push. Cada titular tiene un QR con sus datos vitales para emergencias, y sus beneficiarios acceden al legado con una cuenta regresiva: si el titular no responde a tiempo, la información se libera sola. Incluye suscripciones con las tiendas, cupones, una tienda con envíos y un panel web de administración.",
+        "role": "desarrollo de la app, el backend y el panel de administración, con suscripciones, pagos y tienda."
+      },
+      "sicyt": {
+        "client": "UTN FRBA",
+        "kind": "Sistema de gestión",
+        "title": "SICYT",
+        "tagline": "Proyectos de investigación, equipos y categorización de investigadores en una única plataforma, con el reglamento validado automáticamente.",
+        "description": "Un modelo de dominio con proyectos, integrantes, roles, períodos y documentos, y un motor de reglas versionado por año que valida cada proyecto con el reglamento que le corresponde. El trámite de categorización de investigadores avanza por etapas y por lotes con su historial completo, las notificaciones salen por colas sin frenar al usuario y los listados se exportan a Excel o PDF.",
+        "role": "desarrollo full stack del modelo de dominio, el motor de reglas versionado por año, el trámite de categorización y las notificaciones en cola."
+      }
     }
   },
   "certifications": {
-    "title": "Certificaciones",
+    "title": "Formación",
+    "groups": {
+      "degree": "Carrera de grado",
+      "google": "Google Cloud",
+      "utn": "Diplomaturas y cursos · UTN"
+    },
+    "degree": {
+      "title": "Ingeniería en Sistemas de Información",
+      "place": "Universidad Tecnológica Nacional · FRBA",
+      "date": "En curso"
+    },
+    "ace": {
+      "title": "Associate Cloud Engineer",
+      "place": "Google Cloud",
+      "date": "Ago 2026"
+    },
+    "pcd": {
+      "title": "Professional Cloud Developer",
+      "place": "Google Cloud",
+      "date": "En curso · Estimada Dic 2026"
+    },
     "fullstack": {
       "title": "Diplomatura Full Stack con React",
       "place": "Universidad Tecnológica Nacional",
@@ -119,11 +140,6 @@
       "title": "Diplomatura Bases de Datos",
       "place": "Universidad Tecnológica Nacional",
       "date": "Oct 2023"
-    },
-    "react": {
-      "title": "Desarrollo en React",
-      "place": "Universidad Tecnológica Nacional",
-      "date": "30 Nov 2023"
     },
     "python": {
       "title": "Diplomatura Python",
@@ -156,10 +172,26 @@
     "subtitle": {
       "1": "Frontend",
       "2": "Backend",
-      "3": "CI/CD",
-      "4": "Herramientas",
-      "5": "Base de Datos",
-      "6": "Aprendiendo"
+      "3": "IA & Agentes",
+      "4": "Google Cloud",
+      "5": "DevOps & IaC",
+      "6": "Bases de Datos",
+      "7": "Herramientas"
+    }
+  },
+  "ai": {
+    "title": "IA aplicada",
+    "production": {
+      "title": "LLMs en producción",
+      "text": "Integración de modelos de Gemini en productos multi-tenant, con respuestas en streaming y salida estructurada. Versionado de prompts, tratamiento de los datos externos como no confiables y validación de cada salida antes de que llegue al usuario, con chequeos deterministas, un modelo juez y reintentos que le devuelven al modelo el motivo del rechazo."
+    },
+    "rag": {
+      "title": "RAG",
+      "text": "Construcción de un pipeline completo de recuperación: ingesta y parsing de documentos, chunking, embeddings, búsqueda híbrida sobre una base vectorial y reranking, con los modelos servidos en infraestructura propia y evaluación de los prompts contra sets de preguntas."
+    },
+    "agents": {
+      "title": "Agentes",
+      "text": "Desarrollo de una arquitectura multi-agente con un supervisor que decide en cada turno qué herramienta usar, cada una como servicio interno con su propia autorización. Trabajo diario con agentes de código, con CLAUDE.md, skills, hooks y subagentes, en un flujo de especificación, TDD y revisión."
     }
   },
   "blog": {

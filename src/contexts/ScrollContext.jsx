@@ -13,6 +13,7 @@ export function ScrollContextProvider({ children }) {
   const [blog, setBlog] = useState(0);
   const [certifications, setCertifications] = useState(0);
   const [stack, setStack] = useState(0);
+  const [ai, setAi] = useState(0);
   const [scrollY, setScrollY] = useState(0);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -57,6 +58,8 @@ export function ScrollContextProvider({ children }) {
         setBlog,
         stack,
         setStack,
+        ai,
+        setAi,
       }}
     >
       {children}

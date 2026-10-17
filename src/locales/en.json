@@ -3,38 +3,37 @@
     "home": "Home",
     "experience": "Experience",
     "projects": "Projects",
-    "certifications": "Certifications",
+    "certifications": "Education",
     "technologies": "Technologies",
+    "ai": "AI",
     "blog": "Blog"
   },
   "aboutMe": {
     "greeting": "Hi, I'm",
     "name": "Alejo Suárez",
-    "role": "Full Stack Developer",
-    "description": {
-      "part1": "with experience building web and mobile applications. I mainly work with",
-      "highlight1": "Node.js",
-      "highlight2": "React",
-      "connector": "and multiple",
-      "highlight3": "dependencies and third-party integrations",
-      "part2": "focusing on code quality, performance, and user experience."
-    },
+    "description": "<hl>Full Stack & Cloud Developer</hl> with experience building web and mobile applications, <hl>Google Cloud</hl> solutions and <hl>applied AI</hl>. I mainly work with <hl>Node.js</hl>, <hl>React</hl> and <hl>Python</hl>, focusing on code quality, performance and user experience. <hl>Information Systems Engineering</hl> student at UTN FRBA.",
     "contact": "Contact Me",
     "download": "Download CV"
   },
   "experience": {
     "title": "Work Experience",
-    "freelance": {
-      "title": "Freelance Developer",
-      "subtitle": "Self-employed",
+    "cloud": {
+      "title": "Cloud Developer",
+      "subtitle": "Hike · ABN Group",
+      "date": "May 2026 - Present",
+      "text": "I build generative AI products and automations on Google Cloud. I develop multi-tenant platforms that integrate Gemini models through Vertex AI, content generation engines with automated output validation, and serverless services on Cloud Run that integrate with third-party APIs. I also work on infrastructure: deployments on Compute Engine behind load balancers, infrastructure as code with Terraform, and cloud migration proofs of concept."
+    },
+    "adini": {
+      "title": "Co-Founder",
+      "subtitle": "ADINI",
       "date": "March 2024 - Present",
-      "text": "As a freelance developer, I specialize in designing and building web and mobile applications, delivering solutions aligned with each project's goals and requirements. I am committed to maintaining clear communication and a proactive approach throughout all development stages, ensuring high-quality results."
+      "text": "Co-founder of ADINI, a software development agency. I design and build custom web and mobile applications, from requirements gathering with the client to deployment on Kubernetes. Among other clients, I provide services to Universidad Tecnológica Nacional, where I build a RAG-based AI assistant and its evolution into a multi-agent architecture."
     },
     "developer": {
       "title": "Software Developer",
       "subtitle": "Universidad Tecnológica Nacional",
-      "date": "May 2024 - Present",
-      "text": "I am a Fullstack Developer with experience in optimizing applications to ensure better performance and a smoother user experience. I specialize in implementing new features and modules in existing systems, as well as developing applications from scratch, carefully managing every stage of the process—from analysis and design to implementation and deployment."
+      "date": "May 2024 - May 2026",
+      "text": "I developed and maintained the university's systems, managing every stage of the process—from analysis and design to implementation and deployment. I implemented new features and modules in existing systems and built applications from scratch, optimizing their performance and user experience. I also contributed to the platform's shared services, such as authentication with Keycloak, LDAP and the Traefik proxy."
     },
     "analyst": {
       "title": "Functional Analyst",
@@ -50,61 +49,83 @@
     }
   },
   "projects": {
-    "web": "Web Projects",
-    "mobile": "Mobile Projects",
-    "samay": {
-      "title": "Samay Wayra",
-      "text": "Web page developed for a cabin rental company. It includes a photo gallery and a contact section to make accommodation reservations.",
-      "url": null
+    "title": "Featured projects",
+    "role": "My role:",
+    "site": "Visit site",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai": "AI",
+      "infra": "Infrastructure",
+      "app": "App",
+      "admin": "Admin",
+      "integrations": "Integrations"
     },
-    "moviltrack": {
-      "title": "Moviltrack",
-      "text": "Integrated management application designed to optimize internal project and resource handling for companies. Centralizes information, generates reports, provides performance metrics, profitability analysis, and manages clients, suppliers, products, and projects. Features a role-based access system and dashboards for tracking metrics and overall business performance.",
-      "url": null
-    },
-    "pap": {
-      "title": "Paso a Paso",
-      "text": "Web application developed for a wholesale company, enabling users to browse available products and add them to a cart for request purposes. Additionally, it includes an admin panel to manage products and configure general page settings.",
-      "url": null
-    },
-    "traducciones": {
-      "title": "SIA Translations",
-      "text": "Microservice for a university portal, designed to translate and correct files. It manages the uploading and downloading of documents and includes specific roles for each user type. Additionally, it includes an email notification system to keep users informed.",
-      "url": "https://sia.frba.utn.edu.ar/traducciones/solicitante"
-    },
-    "ripadmin": {
-      "title": "RIP Admin",
-      "text": "Web application for managing the 'RIP Alive' mobile app. It allows administrators to view user information, manage subscription and payment statuses, configure app catalogs, generate discount coupons, and more.",
-      "url": null
-    },
-    "ripalive": {
-      "title": "RIP Alive",
-      "text": "Mobile application designed to allow users to save all their important information in case of death, to inform family members of their final wishes. Users can store details about what to do with their belongings, key contacts, investments, personal and health information, and more. The app includes a built-in subscription system and a store for purchasing products.",
-      "url": "https://ripalive.com/"
-    },
-    "credential": {
-      "title": "Credencial UTN",
-      "text": "Mobile application designed as a digital credential for a university. It allows students to verify their enrollment status with a QR code and provides access to useful information, such as current courses, academic records, and a detailed schedule with class times. It also includes a section to download an enrollment certificate.",
-      "url": null
-    },
-    "difusiones": {
-      "title": "Broadcast System",
-      "text": "Mass email delivery system developed for the National Technological University, used by all areas of the institution. It enables message segmentation through area-specific aliases, allowing targeted communication delivery. The system includes delivery tracking features and the creation and management of recipient lists, streamlining and optimizing institutional communication processes.",
-      "url": "https://sia.frba.utn.edu.ar/difusiones"
-    },
-    "siaFrontend": {
-      "title": "SIA Frontend",
-      "text": "The SIA (Integrated Applications System) Frontend connects the systems of the Faculty of Technology of Buenos Aires, providing a centralized interface for students, faculty, and staff. Built with modern technologies like React and Material UI, it ensures efficient navigation, accessibility, and cross-device compatibility, integrating academic and administrative processes into a single platform.",
-      "url": "https://sia.frba.utn.edu.ar/"
-    },
-    "sicyt": {
-      "title": "Researchers System",
-      "text": "Web system designed to centralize the management of research projects and researchers. It allows the creation, tracking, and administration of projects, the assignment of researchers and roles, and the monitoring of project statuses and progress. Additionally, it supports the management of calls for proposals, related documentation, and reporting, optimizing administrative processes and access to information within the academic environment.",
-      "url": "x"
+    "items": {
+      "utenia": {
+        "client": "UTN FRBA",
+        "kind": "AI agent",
+        "title": "UtenIA",
+        "tagline": "An AI agent that answers with the university's documentation and each student's virtual campus data, with all inference running on its own servers.",
+        "description": "A service syncs the institutional wiki, converts each page to markdown and generates its embeddings. Each question is expanded into several queries over a hybrid search in Qdrant, and a reranker picks the most relevant chunks. A supervisor agent decides on every turn whether to query the documentation, the virtual campus or both, through a custom Moodle tool service that filters each student's data on the server side.",
+        "role": "full stack development of the RAG pipeline, the tool-calling agent, the Moodle tool service and the chat frontend."
+      },
+      "sia": {
+        "client": "UTN FRBA",
+        "kind": "Institutional portal",
+        "title": "SIA",
+        "tagline": "The university's single portal: one login for every service, with a digital ID, payslips, mass communications with delivery tracking and built-in technical support.",
+        "description": "A React frontend with Keycloak single sign-on and permissions by role and affiliation, connected to an API that routes each request to the right microservice. It adds identity and email services on LDAP and Google Workspace, a ticketing system wired to the university's structure, and a queue-based mailing service: batched sends, per-sender limits, retries with backoff and the final status of every mailing.",
+        "role": "development of the portal frontend, the aliases, areas and translations modules, and the mass mailing service, with queues, retries and tracking for every delivery."
+      },
+      "moviltrack": {
+        "client": "Moviltrack · Mexico",
+        "kind": "Management system",
+        "title": "Moviltrack",
+        "tagline": "Quotes, orders, delivery notes and payments in a single flow, with automatic recurring charges and expiration notices, and each project's profitability in plain sight.",
+        "description": "An approved quote becomes an order in one click and is tracked through its delivery note, invoice and payment. Documents are generated as PDFs in the company's format, monthly services create their own charges, and every license notifies the customer before it expires. A dashboard shows sales, profit and active projects, with roles, two-factor authentication and continuous deployment on Azure.",
+        "role": "full stack development of the system, from the API and PDF documents to the executive dashboard."
+      },
+      "rip": {
+        "client": "RIP Alive · Mexico",
+        "kind": "Mobile app",
+        "title": "RIP Alive",
+        "tagline": "An iOS and Android app to leave everything in order: vital data one QR scan away in an emergency, and a complete legacy that beneficiaries only see when the time comes.",
+        "description": "A single codebase published on the App Store and Google Play, with biometric unlock and push notifications. Each holder has a QR code with their vital data for emergencies, and beneficiaries access the legacy through a countdown: if the holder doesn't respond in time, the information is released automatically. It includes store subscriptions, coupons, a shop with shipping and a web admin panel.",
+        "role": "development of the app, the backend and the admin panel, with subscriptions, payments and a store."
+      },
+      "sicyt": {
+        "client": "UTN FRBA",
+        "kind": "Management system",
+        "title": "SICYT",
+        "tagline": "Research projects, teams and researcher categorization in a single platform, with the regulations validated automatically.",
+        "description": "A domain model with projects, members, roles, periods and documents, and a year-versioned rules engine that validates each project against the regulations that apply to it. The researcher categorization workflow moves through stages and batches with its full history, notifications go out through queues without blocking the user, and listings export to Excel or PDF.",
+        "role": "full stack development of the domain model, the year-versioned rules engine, the categorization workflow and queued notifications."
+      }
     }
   },
   "certifications": {
-    "title": "Certifications",
+    "title": "Education",
+    "groups": {
+      "degree": "Degree",
+      "google": "Google Cloud",
+      "utn": "Diplomas & courses · UTN"
+    },
+    "degree": {
+      "title": "Information Systems Engineering",
+      "place": "Universidad Tecnológica Nacional · FRBA",
+      "date": "In progress"
+    },
+    "ace": {
+      "title": "Associate Cloud Engineer",
+      "place": "Google Cloud",
+      "date": "Aug 2026"
+    },
+    "pcd": {
+      "title": "Professional Cloud Developer",
+      "place": "Google Cloud",
+      "date": "In progress · Expected Dec 2026"
+    },
     "fullstack": {
       "title": "Full Stack with React Diploma",
       "place": "Universidad Tecnológica Nacional",
@@ -151,10 +172,26 @@
     "subtitle": {
       "1": "Frontend",
       "2": "Backend",
-      "3": "CI/CD",
-      "4": "Tools",
-      "5": "Database",
-      "6": "Learning"
+      "3": "AI & Agents",
+      "4": "Google Cloud",
+      "5": "DevOps & IaC",
+      "6": "Databases",
+      "7": "Tools"
+    }
+  },
+  "ai": {
+    "title": "Applied AI",
+    "production": {
+      "title": "LLMs in production",
+      "text": "Integration of Gemini models into multi-tenant products, with streaming responses and structured output. Prompt versioning, external data treated as untrusted, and validation of every output before it reaches the user through deterministic checks, a judge model and retries that feed the rejection reason back to the model."
+    },
+    "rag": {
+      "title": "RAG",
+      "text": "Construction of a complete retrieval pipeline: document ingestion and parsing, chunking, embeddings, hybrid search over a vector database and reranking, with models served on self-hosted infrastructure and prompts evaluated against question sets."
+    },
+    "agents": {
+      "title": "Agents",
+      "text": "Development of a multi-agent architecture with a supervisor that decides which tool to use on each turn, each one an internal service with its own authorization. Daily work with coding agents using CLAUDE.md, skills, hooks and subagents, in a spec, TDD and review workflow."
     }
   },
   "blog": {
