@@ -11,7 +11,7 @@
   "aboutMe": {
     "greeting": "Hi, I'm",
     "name": "Alejo Suárez",
-    "description": "<hl>Full Stack & Cloud Developer</hl> with experience building web and mobile applications, <hl>Google Cloud</hl> solutions and <hl>applied AI</hl>. I mainly work with <hl>Node.js</hl>, <hl>React</hl> and <hl>Python</hl>, focusing on code quality, performance and user experience. <hl>Information Systems Engineering</hl> student at UTN FRBA.",
+    "description": "<hl>Full Stack & Cloud Developer</hl> with experience building web and mobile applications, <hl>Google Cloud</hl> solutions and <hl>applied AI</hl>. I mainly work with Node.js, React and Python. Information Systems Engineering student at UTN FRBA.",
     "contact": "Contact Me",
     "download": "Download CV"
   },

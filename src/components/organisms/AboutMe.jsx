@@ -8,6 +8,8 @@ import cvEng from "../../assets/pdf/CV_ENG.pdf";
 import "../../styles/aboutMe.css";
 import LinkedIcon from "../../assets/icons/LinkedIcon";
 import GitIcon from "../../assets/icons/GitIcon";
+import DevIcon from "../../assets/icons/DevIcon";
+import MailIcon from "../../assets/icons/MailIcon";
 
 export default function AboutMe() {
   const { theme } = useTheme();
@@ -98,6 +100,20 @@ export default function AboutMe() {
                   className={`about_icon language col-2 col-lg-1 px-1 d-flex justify-content-center justify-content-lg-start`}
                 >
                   <GitIcon width={28} height={28} />
+                </div>
+                <div
+                  onClick={() => handleClick("https://dev.to/alejosuarez2001")}
+                  className={`about_icon language col-2 col-lg-1 px-1 d-flex justify-content-center justify-content-lg-start`}
+                >
+                  <DevIcon width={30} height={30} />
+                </div>
+                <div
+                  onClick={() => {
+                    window.location.href = "mailto:alejo.2001.suarez@gmail.com";
+                  }}
+                  className={`about_icon language col-2 col-lg-1 px-1 d-flex justify-content-center justify-content-lg-start`}
+                >
+                  <MailIcon width={30} height={30} />
                 </div>
               </div>
             </div>
