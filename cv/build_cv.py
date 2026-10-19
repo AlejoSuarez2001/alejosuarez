@@ -78,7 +78,7 @@ CV = {
         "certifications": [
             ("Google Cloud Certified – Associate Cloud Engineer", "Google Cloud", "Ago 2026", CREDLY_ACE),
             ("Google Cloud Certified – Professional Cloud Developer", "Google Cloud", "En curso", None),
-            ("Diplomatura en Inteligencia Artificial", "Universidad Tecnológica Nacional", "Jul 2025 – Dic 2025", VAL + "8b52819b-39e6-40a4-b715-0f94d2f83e9e"),
+            ("Diplomatura en Inteligencia Artificial", "Universidad Tecnológica Nacional", "Jul 2025 – Dic 2025", VAL + "RIS8sqVI3M"),
             ("Diplomatura en Backend Developer", "Universidad Tecnológica Nacional", "Mar 2025 – Sep 2025", VAL + "0lPvJVNjBu"),
             ("Docker y Kubernetes", "Universidad Tecnológica Nacional", "May 2025 – Jul 2025", VAL + "ehZ3aEUuLx"),
             ("Diplomatura en Python", "Universidad Tecnológica Nacional", "Jul 2023 – Feb 2024", VAL + "WozRYXyULu"),
@@ -160,7 +160,7 @@ CV = {
         "certifications": [
             ("Google Cloud Certified – Associate Cloud Engineer", "Google Cloud", "Aug 2026", CREDLY_ACE),
             ("Google Cloud Certified – Professional Cloud Developer", "Google Cloud", "In progress", None),
-            ("Artificial Intelligence Diploma", "National Technological University", "Jul 2025 – Dec 2025", VAL + "8b52819b-39e6-40a4-b715-0f94d2f83e9e"),
+            ("Artificial Intelligence Diploma", "National Technological University", "Jul 2025 – Dec 2025", VAL + "RIS8sqVI3M"),
             ("Backend Developer Diploma", "National Technological University", "Mar 2025 – Sep 2025", VAL + "0lPvJVNjBu"),
             ("Docker and Kubernetes", "National Technological University", "May 2025 – Jul 2025", VAL + "ehZ3aEUuLx"),
             ("Python Diploma", "National Technological University", "Jul 2023 – Feb 2024", VAL + "WozRYXyULu"),
