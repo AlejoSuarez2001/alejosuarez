@@ -38,7 +38,7 @@ export default function AppliedAI() {
               icon={<LuSparkles />}
               title={t("ai.production.title")}
               text={t("ai.production.text")}
-              tags={["Vertex AI", "Gemini", "SSE", "LLM-as-judge"]}
+              tags={["Vertex AI", "vLLM", "SSE", "LLM-as-judge"]}
             />
           </div>
           <div className="col-12 col-lg-4">

@@ -183,7 +183,7 @@
     "title": "Applied AI",
     "production": {
       "title": "LLMs in production",
-      "text": "Integration of Gemini models into multi-tenant products, with streaming responses and structured output. Prompt versioning, external data treated as untrusted, and validation of every output before it reaches the user through deterministic checks, a judge model and retries that feed the rejection reason back to the model."
+      "text": "Integration of models from different providers and open-source models on self-hosted infrastructure, with streaming and structured output. Every response is validated before reaching the user with deterministic checks and a judge model."
     },
     "rag": {
       "title": "RAG",

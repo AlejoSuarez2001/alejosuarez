@@ -183,7 +183,7 @@
     "title": "IA aplicada",
     "production": {
       "title": "LLMs en producción",
-      "text": "Integración de modelos de Gemini en productos multi-tenant, con respuestas en streaming y salida estructurada. Versionado de prompts, tratamiento de los datos externos como no confiables y validación de cada salida antes de que llegue al usuario, con chequeos deterministas, un modelo juez y reintentos que le devuelven al modelo el motivo del rechazo."
+      "text": "Integración de modelos de distintos proveedores y open source servidos en infraestructura propia, con streaming y salida estructurada. Cada respuesta se valida antes de llegar al usuario con chequeos deterministas y un modelo juez."
     },
     "rag": {
       "title": "RAG",
